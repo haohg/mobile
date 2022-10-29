@@ -1,0 +1,38 @@
+:root{
+    --primary-color: #f28102;
+    --white-color: #fff;
+    --bg-main-color: #efefef;
+    --heading-color: #3a3a3a;
+    --text-color: #3a3a3a;
+    --header-mobile-height: 90px;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body{
+    background-color: var(--bg-main-color);
+}
+
+.pd-10{
+    padding: 10px;
+}
+
+.text-bolder{
+    font-weight: bolder;
+}
+
+.input, button{
+    outline: none;
+    border: none;
+    border-radius: 4px;
+}
