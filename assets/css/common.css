@@ -1,9 +1,11 @@
 :root {
     --primary-color: #f28102;
     --white-color: #fff;
+    --second-color: #ff0000;
     --bg-main-color: #efefef;
     --heading-color: #3a3a3a;
     --text-color: #3a3a3a;
+    --button-origin-color: #e7e7e7;
     --header-mobile-height: 90px;
 }
 
@@ -33,12 +35,26 @@ body {
     font-weight: bolder;
 }
 
-.input,
-button {
+.input{
     outline: none;
     border: none;
     border-radius: 4px;
 }
+
+.button{
+    display: block;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    background-color: var(--button-origin-color);
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+.button:hover{
+    background-color: var(--primary-color);
+}
+
 
 /*--------------------------- Alignment Text --------------------*/
 .text-center{
@@ -62,6 +78,10 @@ button {
     border-radius: 4px;
 }
 
+.br-t-2{
+    border-radius: 2px 2px 0 0;
+}
+
 .b-color{
     border-color: var(--primary-color);
 }
@@ -79,6 +99,23 @@ button {
     padding-bottom: 10px;
 }
 
+.p-x-8{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+/* -------------------------- Margin --------------------------------- */
+.m-b-10{
+    margin-bottom: 10px;
+}
+
+.m-t-2{
+    margin-top: 2px;
+}
+
+.m-t-4{
+    margin-top: 4px;
+}
 /* -------------------------- Flex -------------------------------------*/
 .flex{
     display: flex;

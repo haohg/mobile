@@ -1,6 +1,7 @@
 .header{
     position: fixed;
     inset: 0 0 auto 0;
+    z-index: 10;
 }
 .header-mobile{
     background-color: var(--primary-color);
@@ -142,4 +143,99 @@
 .brand__img{
     width: 80%;
     vertical-align: middle;
+}
+
+/* Product Section */
+
+/* Product Select Service to Fix */
+.product-select__link{
+    color: var(--text-color);
+    text-align: center;
+    min-width: 60px;
+    background-color: var();
+}
+
+.product-item{
+    display: block;
+    position: relative;
+}
+
+.product-discount{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 4px 2px;
+    background-color: var(--second-color);
+    z-index: 2;
+}
+
+.product-discount::after{
+    content:"";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    border-width: 0 13px 6px 14px;
+    border-style: solid;
+    border-color: transparent var(--second-color) transparent var(--second-color);
+
+}
+
+.product-discount__text{
+   color: var(--white-color);
+}
+
+.product-container{
+    position: relative;
+}
+
+.product-container__img{
+    width: 100%;
+    vertical-align: middle;
+}
+
+.product-wan{
+    position: absolute;
+    bottom: 0;
+    left: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.product-wan__time{
+    border: solid 1px var(--white-color);   
+    padding: 3px 5px;
+    color: var(--white-color);
+    font-weight: 500;
+}
+
+.product-wan__time--red
+{
+    background-color: var(--second-color);
+}
+
+.product-wan__time--orange
+{
+    background-color: var(--primary-color);
+}
+
+.product-item__name{
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.product-price{
+    font-size: 1.4rem;
+}
+
+.product-price__new{
+    font-weight: 500;
+    color: var(--second-color);
+}
+
+.product-price__old{
+    margin-left: 4px;
+    opacity: 0.7;
+    text-decoration: line-through;
 }
