@@ -56,6 +56,10 @@ body {
 }
 
 
+.no-wrap{
+    white-space: nowrap;
+}
+
 /*--------------------------- Alignment Text --------------------*/
 .text-center{
     text-align: center;
