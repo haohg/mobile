@@ -177,6 +177,15 @@
         padding: 0 4px;
     }
 
+    .row.mobile-no-gutter{
+        margin: 0;
+    }
+
+    .row.mobile-no-gutter .col{
+        padding: 0;
+    }
+
+
     .col-s-0{
         display: none;
     }
