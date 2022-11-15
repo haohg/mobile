@@ -18,1351 +18,1475 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./assets/css/responsive.css">
     <link rel="stylesheet" href="./assets/css/common.css">
     <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/css/index-responsive.css">
 </head>
 
 <body>
     <div class="app">
-        <header class="header">
-            <div class="header-mobile pd-10">
-                <div class="header-mobile__top">
-                    <div class="header-mobile__nav">
-                        <div class="mobile-nav__icon br-2"></div>
-                        <div class="mobile-nav__icon br-2"></div>
-                        <div class="mobile-nav__icon br-2"></div>
+        <div class="container center">
+            <header class="header">
+                <div class="header-mobile pd-10">
+                    <div class="header-mobile__top">
+                        <div class="header-mobile__nav">
+                            <div class="mobile-nav__icon br-2"></div>
+                            <div class="mobile-nav__icon br-2"></div>
+                            <div class="mobile-nav__icon br-2"></div>
+                        </div>
+                        <div class="header-mobile__logo">
+                            <a href="/" class="header-mobile__link text-bolder">haohuynhmobile</a>
+                        </div>
+                        <div class="header-mobile__cart">
+                            <a href="/" class="header-mobile__link"><i class="fa-solid fa-bag-shopping"></i></a>
+                        </div>
                     </div>
-                    <div class="header-mobile__logo">
-                        <a href="/" class="header-mobile__link text-bolder">haohuynhmobile</a>
-                    </div>
-                    <div class="header-mobile__cart">
-                        <a href="/" class="header-mobile__link"><i class="fa-solid fa-bag-shopping"></i></a>
+                    <div class="header-mobile__search">
+                        <input type="text" class="input header-mobile__input" placeholder="Tìm kiếm...">
+                        <button class="button button--mobile header-mobile__button"><i
+                                class="fa-solid fa-magnifying-glass"></i></button>
                     </div>
                 </div>
-                <div class="header-mobile__search">
-                    <input type="text" class="input header-mobile__input" placeholder="Tìm kiếm...">
-                    <button class="button header-mobile__button"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <div class="header-pc">
+                    <div class="container center">
+                        <div class="header-top">
+                            <div class="header-logo">
+                                <a href="" class="header-logo__link">
+                                    <h1 class="header-logo__text">haohuynhmobile</h1>
+                                </a>
+                            </div>
+                            <div class="header-search">
+                                <input type="text" class="input header-search__input" placeholder="Tìm kiếm...">
+                                <button class="button header-search__button"><i
+                                        class="fa-solid fa-magnifying-glass"></i></button>
+                            </div>
+                            <div class="header-widget">
+                                <a href="tel:0969033933" class="header-widget__link"><i
+                                        class="fa-solid fa-phone"></i><span>Hotline: 0969.033.933</span></a>
+                                <a href="" class="header-widget__link"><i class="fa-solid fa-location-pin"></i><span>Cửa
+                                        hàng gần bạn</span></a>
+                                <a href="" class="header-widget__link"><i
+                                        class="fa-solid fa-cart-shopping"></i><span>Giỏ hàng</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <nav class="nav-top">
+                        <div class="container center">
+                            <ul class="nav-list">
+                                <li class="nav-list__item"><span class="nav-list__title">SỬA CHỮA: </span></li>
+                                <li class="nav-list__item"><a href="" class="nav-list__link"><i
+                                            class="fa-solid fa-mobile"></i><span>Điện thoại</span></a></li>
+                                <li class="nav-list__item"><a href="" class="nav-list__link"><i
+                                            class="fa-solid fa-tablet-screen-button"></i><span>Máy tính bảng</span></a>
+                                </li>
+                                <li class="nav-list__item"><a href="" class="nav-list__link"><i
+                                            class="fa-solid fa-laptop"></i><span>Laptop</span></a></li>
+                                <li class="nav-list__item"><a href="" class="nav-list__link"><i
+                                            class="fa-sharp fa-solid fa-desktop"></i><span>Máy tính bàn</span></a></li>
+                                <li class="nav-list__item"><a href="" class="nav-list__link"><i
+                                            class="fa-sharp fa-solid fa-desktop"></i><span>Mac</span></a></li>
+                                <li class="nav-list__item"><a href="" class="nav-list__link"><i
+                                            class="fa-sharp fa-solid fa-clock"></i><span>Đồng hồ</span></a></li>
+                                <li class="nav-list__item"><a href="" class="nav-list__link"><i
+                                            class="fa-solid fa-headphones"></i><span>Phụ kiện</span></a></li>
+                            </ul>
+                        </div>
+                    </nav>
                 </div>
-            </div>
-        </header>
-        <main class="main">
-            <div class="slider">
-                <ul class="slider__list">
-                    <li class="slider__item active"><a href="" class="slider__link"><img
-                                src="./assets/images/slider/man-hinh-dai-son.png" alt="" class="slider__image"></a></li>
-                    <li class="slider__item"><a href="" class="slider__link"><img
-                                src="./assets/images/slider/pin-dung-luong-cao.png" alt="" class="slider__image"></a>
-                    </li>
-                    <li class="slider__item"><a href="" class="slider__link"><img
-                                src="./assets/images/slider/thay-ep-kinh.png" alt="" class="slider__image"></a></li>
-                    <li class="slider__item"><a href="" class="slider__link"><img
-                                src="./assets/images/slider/thay-vo-do-vo.png" alt="" class="slider__image"></a></li>
-                    <li class="slider__item"><a href="" class="slider__link"><img
-                                src="./assets/images/slider/nang-cap-ssd.png" alt="" class="slider__image"></a></li>
-                </ul>
-            </div>
-            <section class="section service">
-                <h2 class="section__heading m-b-10 b-color b-solid b-l-4">Dịch vụ sửa chữa</h2>
-                <div class="row">
-                    <div class="col col-s-4">
-                        <div class="service__item">
-                            <a href="" class="service__link">
-                                <figure class="service__img-wrap">
-                                    <img src="./assets/images/index-service/Dien-thoai-hu.jpg" alt="sửa điện thoại"
-                                        class="service__img">
-                                    <figcaption class="service__name">Điện thoại</figcaption>
-                                </figure>
+            </header>
+            <main class="main">
+                <div class="slider">
+                    <ul class="slider__list">
+                        <li class="slider__item active"><a href="" class="slider__link"><img
+                                    src="./assets/images/slider/man-hinh-dai-son.png" alt="" class="slider__image"></a>
+                        </li>
+                        <li class="slider__item"><a href="" class="slider__link"><img
+                                    src="./assets/images/slider/pin-dung-luong-cao.png" alt=""
+                                    class="slider__image"></a>
+                        </li>
+                        <li class="slider__item"><a href="" class="slider__link"><img
+                                    src="./assets/images/slider/thay-ep-kinh.png" alt="" class="slider__image"></a></li>
+                        <li class="slider__item"><a href="" class="slider__link"><img
+                                    src="./assets/images/slider/thay-vo-do-vo.png" alt="" class="slider__image"></a>
+                        </li>
+                        <li class="slider__item"><a href="" class="slider__link"><img
+                                    src="./assets/images/slider/nang-cap-ssd.png" alt="" class="slider__image"></a></li>
+                    </ul>
+                    <div class="slider-sub">
+                        <div class="slider-sub__wrap">
+                            <a href="" class="slider-sub__link">
+                                <img src="assets/images/slider/sub-do-vo.png" class="slider-sub__img"></img>
                             </a>
                         </div>
-                    </div>
-                    <div class="col col-s-4">
-                        <div class="service__item">
-                            <a href="" class="service__link">
-                                <figure class="service__img-wrap">
-                                    <img src="./assets/images/index-service/May-tinh-bang-hu.jpg"
-                                        alt="sửa máy tính bảng" class="service__img">
-                                    <figcaption class="service__name">Máy tính bảng</figcaption>
-                                </figure>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col col-s-4">
-                        <div class="service__item">
-                            <a href="" class="service__link">
-                                <figure class="service__img-wrap">
-                                    <img src="./assets/images/index-service/bluetooth-airpods-2-apple-mv7n2-imei-1-org.jpg"
-                                        alt="sửa airpod" class="service__img">
-                                    <figcaption class="service__name">Airpod</figcaption>
-                                </figure>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col col-s-4">
-                        <div class="service__item">
-                            <a href="" class="service__link">
-                                <figure class="service__img-wrap">
-                                    <img src="./assets/images/index-service/Watch-hu-1.jpg" alt="sửa apple watch"
-                                        class="service__img">
-                                    <figcaption class="service__name">Apple watch</figcaption>
-                                </figure>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col col-s-4">
-                        <div class="service__item">
-                            <a href="" class="service__link">
-                                <figure class="service__img-wrap">
-                                    <img src="./assets/images/index-service/laptop-broken.jpg" alt="sửa laptop, macbook"
-                                        class="service__img">
-                                    <figcaption class="service__name">Laptop</figcaption>
-                                </figure>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col col-s-4">
-                        <div class="service__item">
-                            <a href="" class="service__link">
-                                <figure class="service__img-wrap">
-                                    <img src="./assets/images/index-service/phu-kien-1.jpeg" alt="phụ kiện chính hãng"
-                                        class="service__img">
-                                    <figcaption class="service__name">Phụ kiện</figcaption>
-                                </figure>
+                        <div class="slider-sub__wrap">
+                            <a href="" class="slider-sub__link">
+                                <img src="assets/images/slider/sub-ep-kinh.png" class="slider-sub__img"></img>
                             </a>
                         </div>
                     </div>
                 </div>
-            </section>
-            <section class="section brand">
-                <h2 class="section__heading m-b-10  b-color b-solid b-l-4">Dịch vụ theo thương hiệu</h2>
-                <div class="row">
-                    <div class="col col-s-3 flex align-item-center pb-10">
-                        <a href="" class="brand__link">
-                            <img src="./assets/images/brand/iPHONE-1.png" alt="apple" class="brand__img">
-                        </a>
+                <section class="section mr-t-10 service">
+                    <h2 class="section__heading mr-b-10 b-color b-solid b-l-4">Dịch vụ sửa chữa</h2>
+                    <div class="row">
+                        <div class="col col-s-4">
+                            <div class="service__item">
+                                <a href="" class="service__link">
+                                    <figure class="service__img-wrap">
+                                        <img src="./assets/images/index-service/Dien-thoai-hu.jpg" alt="sửa điện thoại"
+                                            class="service__img">
+                                        <figcaption class="service__name">Điện thoại</figcaption>
+                                    </figure>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col col-s-4">
+                            <div class="service__item">
+                                <a href="" class="service__link">
+                                    <figure class="service__img-wrap">
+                                        <img src="./assets/images/index-service/May-tinh-bang-hu.jpg"
+                                            alt="sửa máy tính bảng" class="service__img">
+                                        <figcaption class="service__name">Máy tính bảng</figcaption>
+                                    </figure>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col col-s-4">
+                            <div class="service__item">
+                                <a href="" class="service__link">
+                                    <figure class="service__img-wrap">
+                                        <img src="./assets/images/index-service/bluetooth-airpods-2-apple-mv7n2-imei-1-org.jpg"
+                                            alt="sửa airpod" class="service__img">
+                                        <figcaption class="service__name">Airpod</figcaption>
+                                    </figure>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col col-s-4">
+                            <div class="service__item">
+                                <a href="" class="service__link">
+                                    <figure class="service__img-wrap">
+                                        <img src="./assets/images/index-service/Watch-hu-1.jpg" alt="sửa apple watch"
+                                            class="service__img">
+                                        <figcaption class="service__name">Apple watch</figcaption>
+                                    </figure>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col col-s-4">
+                            <div class="service__item">
+                                <a href="" class="service__link">
+                                    <figure class="service__img-wrap">
+                                        <img src="./assets/images/index-service/laptop-broken.jpg"
+                                            alt="sửa laptop, macbook" class="service__img">
+                                        <figcaption class="service__name">Laptop</figcaption>
+                                    </figure>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col col-s-4">
+                            <div class="service__item">
+                                <a href="" class="service__link">
+                                    <figure class="service__img-wrap">
+                                        <img src="./assets/images/index-service/phu-kien-1.jpeg"
+                                            alt="phụ kiện chính hãng" class="service__img">
+                                        <figcaption class="service__name">Phụ kiện</figcaption>
+                                    </figure>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col col-s-3 flex align-item-center pb-10">
-                        <a href="" class="brand__link ">
-                            <img src="./assets/images/brand/logo-samsung-1.jpg" alt="samsung" class="brand__img">
-                        </a>
+                </section>
+                <section class="section mr-t-10 brand">
+                    <h2 class="section__heading mr-b-10  b-color b-solid b-l-4">Dịch vụ theo thương hiệu</h2>
+                    <div class="row">
+                        <div class="col col-s-3 pb-10">
+                            <a href="" class="brand__link">
+                                <img src="./assets/images/brand/iPHONE-1.png" alt="apple" class="brand__img">
+                            </a>
+                        </div>
+                        <div class="col col-s-3 pb-10">
+                            <a href="" class="brand__link">
+                                <img src="./assets/images/brand/logo-samsung-1.jpg" alt="samsung" class="brand__img">
+                            </a>
+                        </div>
+                        <div class="col col-s-3 pb-10">
+                            <a href="" class="brand__link">
+                                <img src="./assets/images/brand/Xiaomi.png" alt="xiaomi" class="brand__img">
+                            </a>
+                        </div>
+                        <div class="col col-s-3 pb-10">
+                            <a href="" class="brand__link">
+                                <img src="./assets/images/brand/OPPO-1.png" alt="oppo" class="brand__img">
+                            </a>
+                        </div>
+                        <div class="col col-s-3 pb-10">
+                            <a href="" class="brand__link">
+                                <img src="./assets/images/brand/sony-1.png" alt="sony" class="brand__img">
+                            </a>
+                        </div>
+                        <div class="col col-s-3 pb-10">
+                            <a href="" class="brand__link">
+                                <img src="./assets/images/brand/DELL-1.png" alt="dell" class="brand__img">
+                            </a>
+                        </div>
+                        <div class="col col-s-3 pb-10">
+                            <a href="" class="brand__link">
+                                <img src="./assets/images/brand/ACER-1.png" alt="acer" class="brand__img">
+                            </a>
+                        </div>
+                        <div class="col col-s-3 pb-10">
+                            <a href="" class="brand__link">
+                                <img src="./assets/images/brand/asus-2.png" alt="asus" class="brand__img">
+                            </a>
+                        </div>
                     </div>
-                    <div class="col col-s-3 flex align-item-center pb-10">
-                        <a href="" class="brand__link">
-                            <img src="./assets/images/brand/Xiaomi.png" alt="xiaomi" class="brand__img">
-                        </a>
+                </section>
+                <section class="section mr-t-10 product">
+                    <div class="product-header">
+                        <h2 class="section__heading mr-b-10  b-color b-solid b-l-4">Sửa điện thoại</h2>
+                        <div class="product-select">
+                            <div class="row">
+                                <div class="col col-s-3">
+                                    <a href="" class="button button--mobile product-select__button p-x-4 mr-b-10">Thay
+                                        màn
+                                        hình</a>
+                                </div>
+                                <div class="col col-s-3">
+                                    <a href="" class="button button--mobile product-select__button p-x-4 mr-b-10">Thay
+                                        kính</a>
+                                </div>
+                                <div class="col col-s-3">
+                                    <a href="" class="button button--mobile product-select__button p-x-4 mr-b-10">Thay
+                                        pin</a>
+                                </div>
+                                <div class="col col-s-3">
+                                    <a href="" class="button button--mobile product-select__button p-x-4 mr-b-10">Thay
+                                        đuôi
+                                        sạc</a>
+                                </div>
+                                <div class="col col-s-3">
+                                    <a href="" class="button button--mobile product-select__button p-x-4 mr-b-10">Thay
+                                        vỏ</a>
+                                </div>
+                                <div class="col col-s-3">
+                                    <a href="" class="button button--mobile product-select__button p-x-4 mr-b-10">Thay
+                                        mic</a>
+                                </div>
+                                <div class="col col-s-3">
+                                    <a href="" class="button button--mobile product-select__button p-x-4 mr-b-10">Thay
+                                        camera</a>
+                                </div>
+                                <div class="col col-s-3">
+                                    <a href="" class="button button--mobile product-select__button p-x-4 mr-b-10">Xem
+                                        tất
+                                        cả</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col col-s-6 col-m-3">
+                                <a class="product-item">
+                                    <div class="product-discount br-t-2">
+                                        <strong class="product-discount__text">-10%</strong>
+                                    </div>
+                                    <div class="product-container">
+                                        <img src="assets/images/product/apple/iphone/thay-man-hinh-iphone-13-pro-max.jpg"
+                                            alt="thay màn hình iphone 13 pro max" class="product-container__img">
+                                        <div class="product-wan">
+                                            <span class="product-wan__time product-wan__time--red">Bảo hành: 12
+                                                tháng</span>
+                                            <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3
+                                                giờ</span>
+                                        </div>
+                                    </div>
+                                    <p class="product-item__name p-x-4">Thay màn hình iphone 13 Pro Max</p>
+                                    <div class="product-price p-x-4 mr-b-10">
+                                        <span class="product-price__new">8.280.000</span>
+                                        <span class="product-price__old">9.200.000</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col col-s-6 col-m-3">
+                                <a class="product-item">
+                                    <div class="product-discount br-t-2">
+                                        <strong class="product-discount__text">-10%</strong>
+                                    </div>
+                                    <div class="product-container">
+                                        <img src="./assets/images/product/apple/iphone/thay-mat-kinh-iphone-12.jpg"
+                                            alt=" thay mặt kính iphone 13 pro max" class="product-container__img">
+                                        <div class="product-wan">
+                                            <span class="product-wan__time product-wan__time--red">Bảo hành: 12
+                                                tháng</span>
+                                            <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3
+                                                giờ</span>
+                                        </div>
+                                    </div>
+                                    <p class="product-item__name p-x-4">Thay kính iPhone 13 Pro Max</p>
+                                    <div class="product-price p-x-4 mr-b-10">
+                                        <span class="product-price__new">1.800.000</span>
+                                        <span class="product-price__old">1.980.000</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col col-s-6 col-m-3">
+                                <a class="product-item">
+                                    <div class="product-discount br-t-2">
+                                        <strong class="product-discount__text">-10%</strong>
+                                    </div>
+                                    <div class="product-container">
+                                        <img src="assets/images/product/apple/iphone/thay-pin-iphone-13-pro-max-1-460x460.jpg"
+                                            alt="" class="product-container__img">
+                                        <div class="product-wan">
+                                            <span class="product-wan__time product-wan__time--red">Bảo hành: 12
+                                                tháng</span>
+                                            <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3
+                                                giờ</span>
+                                        </div>
+                                    </div>
+                                    <p class="product-item__name p-x-4">Thay pin iphone 13 Pro Max</p>
+                                    <div class="product-price p-x-4 mr-b-10">
+                                        <span class="product-price__new">2.800.000</span>
+                                        <span class="product-price__old">3.080.000</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col col-s-6 col-m-3">
+                                <a class="product-item">
+                                    <div class="product-discount br-t-2">
+                                        <strong class="product-discount__text">-10%</strong>
+                                    </div>
+                                    <div class="product-container">
+                                        <img src="assets/images/product/apple/iphone/thay-chan-sac-iphone-13-pro-max-fc.jpg"
+                                            alt="" class="product-container__img">
+                                        <div class="product-wan">
+                                            <span class="product-wan__time product-wan__time--red">Bảo hành: 12
+                                                tháng</span>
+                                            <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3
+                                                giờ</span>
+                                        </div>
+                                    </div>
+                                    <p class="product-item__name p-x-4">Thay đuôi sạc iphone 13 Pro Max</p>
+                                    <div class="product-price p-x-4 mr-b-10">
+                                        <span class="product-price__new">2.500.000</span>
+                                        <span class="product-price__old">2.750.000</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col col-s-6 col-m-3">
+                                <a class="product-item">
+                                    <div class="product-discount br-t-2">
+                                        <strong class="product-discount__text">-10%</strong>
+                                    </div>
+                                    <div class="product-container">
+                                        <img src="assets/images/product/apple/iphone/thay-loa-trong-iphone-12-pro-max-1-460x460.jpg"
+                                            alt="" class="product-container__img">
+                                        <div class="product-wan">
+                                            <span class="product-wan__time product-wan__time--red">Bảo hành: 12
+                                                tháng</span>
+                                            <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3
+                                                giờ</span>
+                                        </div>
+                                    </div>
+                                    <p class="product-item__name p-x-4">Thay vỏ iphone 13 Pro Max</p>
+                                    <div class="product-price p-x-4 mr-b-10">
+                                        <span class="product-price__new">9.900.000</span>
+                                        <span class="product-price__old">4.290.000</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col col-s-6 col-m-3">
+                                <a class="product-item">
+                                    <div class="product-discount br-t-2">
+                                        <strong class="product-discount__text">-10%</strong>
+                                    </div>
+                                    <div class="product-container">
+                                        <img src="assets/images/product/apple/iphone/thay-chan-sac-iphone-13-pro-max-fc.jpg"
+                                            alt="" class="product-container__img">
+                                        <div class="product-wan">
+                                            <span class="product-wan__time product-wan__time--red">Bảo hành: 12
+                                                tháng</span>
+                                            <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3
+                                                giờ</span>
+                                        </div>
+                                    </div>
+                                    <p class="product-item__name p-x-4">Thay mic iphone 13 Pro Max</p>
+                                    <div class="product-price p-x-4 mr-b-10">
+                                        <span class="product-price__new">2.500.000</span>
+                                        <span class="product-price__old">2.750.000</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col col-s-6 col-m-3">
+                                <a class="product-item">
+                                    <div class="product-discount br-t-2">
+                                        <strong class="product-discount__text">-10%</strong>
+                                    </div>
+                                    <div class="product-container">
+                                        <img src="assets/images/product/apple/iphone/camera-sau-iphone-13-pro-max-zin-boc-may.jpg"
+                                            alt="" class="product-container__img">
+                                        <div class="product-wan">
+                                            <span class="product-wan__time product-wan__time--red">Bảo hành: 12
+                                                tháng</span>
+                                            <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3
+                                                giờ</span>
+                                        </div>
+                                    </div>
+                                    <p class="product-item__name p-x-4">Thay camera iPhone 13 Pro Max</p>
+                                    <div class="product-price p-x-4 mr-b-10">
+                                        <span class="product-price__new">1.700.000</span>
+                                        <span class="product-price__old">1.870.000</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col col-s-6 col-m-3">
+                                <a class="product-item">
+                                    <div class="product-discount br-t-2">
+                                        <strong class="product-discount__text">-10%</strong>
+                                    </div>
+                                    <div class="product-container">
+                                        <img src="assets/images/product/apple/iphone/thay-kinh-lung-vo-do-iphone-xs-max-len-12-pro-max-1-460x460.jpg"
+                                            alt="" class="product-container__img">
+                                        <div class="product-wan">
+                                            <span class="product-wan__time product-wan__time--red">Bảo hành: 12
+                                                tháng</span>
+                                            <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3
+                                                giờ</span>
+                                        </div>
+                                    </div>
+                                    <p class="product-item__name p-x-4">Thay kính lưng iPhone 13 Pro Max</p>
+                                    <div class="product-price p-x-4 mr-b-10">
+                                        <span class="product-price__new">750.000</span>
+                                        <span class="product-price__old">825.000</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col col-s-3 flex align-item-center pb-10">
-                        <a href="" class="brand__link">
-                            <img src="./assets/images/brand/OPPO-1.png" alt="oppo" class="brand__img">
-                        </a>
-                    </div>
-                    <div class="col col-s-3 flex align-item-center pb-10">
-                        <a href="" class="brand__link">
-                            <img src="./assets/images/brand/sony-1.png" alt="sony" class="brand__img">
-                        </a>
-                    </div>
-                    <div class="col col-s-3 flex align-item-center pb-10">
-                        <a href="" class="brand__link ">
-                            <img src="./assets/images/brand/DELL-1.png" alt="dell" class="brand__img">
-                        </a>
-                    </div>
-                    <div class="col col-s-3 flex align-item-center pb-10">
-                        <a href="" class="brand__link">
-                            <img src="./assets/images/brand/ACER-1.png" alt="acer" class="brand__img">
-                        </a>
-                    </div>
-                    <div class="col col-s-3 flex align-item-center pb-10">
-                        <a href="" class="brand__link">
-                            <img src="./assets/images/brand/asus-2.png" alt="asus" class="brand__img">
-                        </a>
-                    </div>
-                </div>
-            </section>
-            <section class="section product">
-                <div class="product-header">
-                    <h2 class="section__heading m-b-10  b-color b-solid b-l-4">Sửa điện thoại</h2>
+                </section>
+                <section class="section mr-t-10 product">
+                    <h2 class="section__heading mr-b-10  b-color b-solid b-l-4">Sửa máy tính bảng</h2>
                     <div class="product-select">
                         <div class="row">
                             <div class="col col-s-3">
-                                <a href="" class="button product-select__link p-x-8 m-b-10">Thay màn hình</a>
+                                <a href="" class="button button--mobile product-select__button p-x-4 mr-b-10">Thay màn
+                                    hình</a>
                             </div>
                             <div class="col col-s-3">
-                                <a href="" class="button product-select__link p-x-8 m-b-10">Thay kính</a>
+                                <a href="" class="button button--mobile product-select__button p-x-4 mr-b-10">Thay
+                                    kính</a>
                             </div>
                             <div class="col col-s-3">
-                                <a href="" class="button product-select__link p-x-8 m-b-10">Thay pin</a>
+                                <a href="" class="button button--mobile product-select__button p-x-4 mr-b-10">Thay cảm
+                                    ứng</a>
                             </div>
                             <div class="col col-s-3">
-                                <a href="" class="button product-select__link p-x-8 m-b-10">Thay đuôi sạc</a>
+                                <a href="" class="button button--mobile product-select__button p-x-4 mr-b-10">Thay
+                                    pin</a>
                             </div>
                             <div class="col col-s-3">
-                                <a href="" class="button product-select__link p-x-8 m-b-10">Thay vỏ</a>
+                                <a href="" class="button button--mobile product-select__button p-x-4 mr-b-10">Thay
+                                    loa</a>
                             </div>
                             <div class="col col-s-3">
-                                <a href="" class="button product-select__link p-x-8 m-b-10">Thay mic</a>
+                                <a href="" class="button button--mobile product-select__button p-x-4 mr-b-10">Thay đuôi
+                                    sạc</a>
                             </div>
                             <div class="col col-s-3">
-                                <a href="" class="button product-select__link p-x-8 m-b-10">Thay camera</a>
+                                <a href="" class="button button--mobile product-select__button p-x-4 mr-b-10">Thay
+                                    camera</a>
                             </div>
                             <div class="col col-s-3">
-                                <a href="" class="button product-select__link p-x-8 m-b-10">Xem tất cả</a>
+                                <a href="" class="button button--mobile product-select__button p-x-4 mr-b-10">Xem tất
+                                    cả</a>
                             </div>
                         </div>
-
                     </div>
                     <div class="row">
-                        <div class="col col-s-6">
+                        <div class="col col-s-6 col-m-3">
                             <a class="product-item">
                                 <div class="product-discount br-t-2">
                                     <strong class="product-discount__text">-10%</strong>
                                 </div>
                                 <div class="product-container">
-                                    <img src="assets/images/product/apple/iphone/thay-man-hinh-iphone-13-pro-max.jpg"
-                                        alt="thay màn hình iphone 13 pro max" class="product-container__img">
+                                    <img src="./assets/images/product/apple/ipad/screen-ipad-pro-12.9.jpg"
+                                        alt="thay màn hình ipad pro 12.9 2021" class="product-container__img">
                                     <div class="product-wan">
                                         <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
                                         <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
                                     </div>
                                 </div>
-                                <p class="product-item__name p-x-8">Thay màn hình iphone 13 Pro Max</p>
-                                <div class="product-price p-x-8 m-b-10">
-                                    <span class="product-price__new">8.280.000</span>
-                                    <span class="product-price__old">9.200.000</span>
+                                <p class="product-item__name p-x-4">Thay màn hình hình iPad Pro 12.9 2021</p>
+                                <div class="product-price p-x-4 mr-b-10">
+                                    <span class="product-price__new">5.800.000</span>
+                                    <span class="product-price__old">6.380.000</span>
                                 </div>
                             </a>
                         </div>
-                        <div class="col col-s-6">
+                        <div class="col col-s-6 col-m-3">
                             <a class="product-item">
                                 <div class="product-discount br-t-2">
                                     <strong class="product-discount__text">-10%</strong>
                                 </div>
                                 <div class="product-container">
-                                    <img src="./assets/images/product/apple/iphone/thay-mat-kinh-iphone-12.jpg"
-                                        alt=" thay mặt kính iphone 13 pro max" class="product-container__img">
+                                    <img src="./assets/images/product/apple/ipad/touch-ipad-pro-12-9-inch-2020.jpg"
+                                        alt="thay kính ipad pro 12.9 2021" class="product-container__img">
                                     <div class="product-wan">
                                         <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
                                         <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
                                     </div>
                                 </div>
-                                <p class="product-item__name p-x-8">Thay kính iPhone 13 Pro Max</p>
-                                <div class="product-price p-x-8 m-b-10">
-                                    <span class="product-price__new">1.800.000</span>
-                                    <span class="product-price__old">1.980.000</span>
+                                <p class="product-item__name p-x-4">Thay kính iPad Pro 12.9 2020</p>
+                                <div class="product-price p-x-4 mr-b-10">
+                                    <span class="product-price__new">1.850.000</span>
+                                    <span class="product-price__old">2.035.000</span>
                                 </div>
                             </a>
                         </div>
-                        <div class="col col-s-6">
+                        <div class="col col-s-6 col-m-3">
                             <a class="product-item">
                                 <div class="product-discount br-t-2">
                                     <strong class="product-discount__text">-10%</strong>
                                 </div>
                                 <div class="product-container">
-                                    <img src="assets/images/product/apple/iphone/thay-pin-iphone-13-pro-max-1-460x460.jpg"
-                                        alt="" class="product-container__img">
+                                    <img src="assets/images/product/apple/ipad/touch-ipad-pro-12.9.jpg"
+                                        alt="thay cảm ứng ipad pro 12.9 2021" class="product-container__img">
                                     <div class="product-wan">
                                         <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
                                         <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
                                     </div>
                                 </div>
-                                <p class="product-item__name p-x-8">Thay pin iphone 13 Pro Max</p>
-                                <div class="product-price p-x-8 m-b-10">
-                                    <span class="product-price__new">2.800.000</span>
-                                    <span class="product-price__old">3.080.000</span>
+                                <p class="product-item__name p-x-4">Thay cảm ứng iPad Pro 12.9 2021</p>
+                                <div class="product-price p-x-4 mr-b-10">
+                                    <span class="product-price__new">3.800.000</span>
+                                    <span class="product-price__old">4.180.000</span>
                                 </div>
                             </a>
                         </div>
-                        <div class="col col-s-6">
+                        <div class="col col-s-6 col-m-3">
                             <a class="product-item">
                                 <div class="product-discount br-t-2">
                                     <strong class="product-discount__text">-10%</strong>
                                 </div>
                                 <div class="product-container">
-                                    <img src="assets/images/product/apple/iphone/thay-chan-sac-iphone-13-pro-max-fc.jpg"
-                                        alt="" class="product-container__img">
+                                    <img src="assets/images/product/apple/ipad/battery-ipad-pro-12-9-inch-2017.jpg"
+                                        alt="thay pin ipad pro 12.9 2017" class="product-container__img">
                                     <div class="product-wan">
                                         <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
                                         <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
                                     </div>
                                 </div>
-                                <p class="product-item__name p-x-8">Thay đuôi sạc iphone 13 Pro Max</p>
-                                <div class="product-price p-x-8 m-b-10">
-                                    <span class="product-price__new">2.500.000</span>
-                                    <span class="product-price__old">2.750.000</span>
+                                <p class="product-item__name p-x-4">Thay pin iPad Pro 12.9 2017</p>
+                                <div class="product-price p-x-4 mr-b-10">
+                                    <span class="product-price__new">950.000</span>
+                                    <span class="product-price__old">1.045.000</span>
                                 </div>
                             </a>
                         </div>
-                        <div class="col col-s-6">
+                        <div class="col col-s-6 col-m-3">
                             <a class="product-item">
                                 <div class="product-discount br-t-2">
                                     <strong class="product-discount__text">-10%</strong>
                                 </div>
                                 <div class="product-container">
-                                    <img src="assets/images/product/apple/iphone/thay-loa-trong-iphone-12-pro-max-1-460x460.jpg"
-                                        alt="" class="product-container__img">
+                                    <img src="assets/images/product/apple/ipad/speaker-ngoai-ipad-pro-12.9-2021-460x460.jpg"
+                                        alt="thay loa ipad Pro 12.9 2021" class="product-container__img">
                                     <div class="product-wan">
                                         <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
                                         <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
                                     </div>
                                 </div>
-                                <p class="product-item__name p-x-8">Thay vỏ iphone 13 Pro Max</p>
-                                <div class="product-price p-x-8 m-b-10">
-                                    <span class="product-price__new">9.900.000</span>
-                                    <span class="product-price__old">4.290.000</span>
+                                <p class="product-item__name p-x-4">Thay loa iPad Pro 12.9 2021</p>
+                                <div class="product-price p-x-4 mr-b-10">
+                                    <span class="product-price__new">1.250.000</span>
+                                    <span class="product-price__old">1.375.000</span>
                                 </div>
                             </a>
                         </div>
-                        <div class="col col-s-6">
+                        <div class="col col-s-6 col-m-3">
                             <a class="product-item">
                                 <div class="product-discount br-t-2">
                                     <strong class="product-discount__text">-10%</strong>
                                 </div>
                                 <div class="product-container">
-                                    <img src="assets/images/product/apple/iphone/thay-chan-sac-iphone-13-pro-max-fc.jpg"
-                                        alt="" class="product-container__img">
+                                    <img src="assets/images/product/apple/ipad/thay-chan-sac-ipad-pro-12-9-inch-2020-460x460.jpg"
+                                        alt="thay chân sạc ipad pro 12.9 2020" class="product-container__img">
                                     <div class="product-wan">
                                         <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
                                         <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
                                     </div>
                                 </div>
-                                <p class="product-item__name p-x-8">Thay mic iphone 13 Pro Max</p>
-                                <div class="product-price p-x-8 m-b-10">
-                                    <span class="product-price__new">2.500.000</span>
-                                    <span class="product-price__old">2.750.000</span>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col col-s-6">
-                            <a class="product-item">
-                                <div class="product-discount br-t-2">
-                                    <strong class="product-discount__text">-10%</strong>
-                                </div>
-                                <div class="product-container">
-                                    <img src="assets/images/product/apple/iphone/camera-sau-iphone-13-pro-max-zin-boc-may.jpg"
-                                        alt="" class="product-container__img">
-                                    <div class="product-wan">
-                                        <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
-                                        <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
-                                    </div>
-                                </div>
-                                <p class="product-item__name p-x-8">Thay camera iPhone 13 Pro Max</p>
-                                <div class="product-price p-x-8 m-b-10">
+                                <p class="product-item__name p-x-4">Thay chân sạc iPad Pro 12.9 2020</p>
+                                <div class="product-price p-x-4 mr-b-10">
                                     <span class="product-price__new">1.700.000</span>
                                     <span class="product-price__old">1.870.000</span>
                                 </div>
                             </a>
                         </div>
-                        <div class="col col-s-6">
+                        <div class="col col-s-6 col-m-3">
                             <a class="product-item">
                                 <div class="product-discount br-t-2">
                                     <strong class="product-discount__text">-10%</strong>
                                 </div>
                                 <div class="product-container">
-                                    <img src="assets/images/product/apple/iphone/thay-kinh-lung-vo-do-iphone-xs-max-len-12-pro-max-1-460x460.jpg"
-                                        alt="" class="product-container__img">
+                                    <img src="assets/images/product/apple/ipad/camera-sau-ipad-pro-12.9-2021-1-460x460.jpg"
+                                        alt="thay camera ipad pro 12.9 2021" class="product-container__img">
                                     <div class="product-wan">
                                         <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
                                         <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
                                     </div>
                                 </div>
-                                <p class="product-item__name p-x-8">Thay kính lưng iPhone 13 Pro Max</p>
-                                <div class="product-price p-x-8 m-b-10">
-                                    <span class="product-price__new">750.000</span>
-                                    <span class="product-price__old">825.000</span>
+                                <p class="product-item__name p-x-4">Thay camera iPad Pro 12.9 2021</p>
+                                <div class="product-price p-x-4 mr-b-10">
+                                    <span class="product-price__new">1.250.000</span>
+                                    <span class="product-price__old">1.375.000</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col col-s-6 col-m-3">
+                            <a class="product-item">
+                                <div class="product-discount br-t-2">
+                                    <strong class="product-discount__text">-10%</strong>
+                                </div>
+                                <div class="product-container">
+                                    <img src="assets/images/product/apple/ipad/case-ipad-pro-12-9-inch-2021-460x460.jpg"
+                                        alt="thay vo ipad pro 12.9 2021" class="product-container__img">
+                                    <div class="product-wan">
+                                        <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
+                                        <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
+                                    </div>
+                                </div>
+                                <p class="product-item__name p-x-4">Thay vỏ iPad Pro 12.9 2021</p>
+                                <div class="product-price p-x-4 mr-b-10">
+                                    <span class="product-price__new">2.800.000</span>
+                                    <span class="product-price__old">3.080.000</span>
                                 </div>
                             </a>
                         </div>
                     </div>
-                </div>
-            </section>
-            <section class="section product">
-                <h2 class="section__heading m-b-10  b-color b-solid b-l-4">Sửa máy tính bảng</h2>
-                <div class="product-select">
+                </section>
+                <section class="section mr-t-10 product">
+                    <h2 class="section__heading mr-b-10  b-color b-solid b-l-4">Sửa Airpod</h2>
+                    <div class="product-select">
+                        <div class="row">
+                            <div class="col col-s-3">
+                                <a href="" class="button button--mobile product-select__button p-x-4 mr-b-10">Thay màn
+                                    hình</a>
+                            </div>
+                            <div class="col col-s-3">
+                                <a href="" class="button button--mobile product-select__button p-x-4 mr-b-10">Thay
+                                    kính</a>
+                            </div>
+                            <div class="col col-s-3">
+                                <a href="" class="button button--mobile product-select__button p-x-4 mr-b-10">Thay cảm
+                                    ứng</a>
+                            </div>
+                            <div class="col col-s-3">
+                                <a href="" class="button button--mobile product-select__button p-x-4 mr-b-10">Thay
+                                    pin</a>
+                            </div>
+                            <div class="col col-s-3">
+                                <a href="" class="button button--mobile product-select__button p-x-4 mr-b-10">Thay
+                                    loa</a>
+                            </div>
+                            <div class="col col-s-3">
+                                <a href="" class="button button--mobile product-select__button p-x-4 mr-b-10">Thay đuôi
+                                    sạc</a>
+                            </div>
+                            <div class="col col-s-3">
+                                <a href="" class="button button--mobile product-select__button p-x-4 mr-b-10">Thay
+                                    camera</a>
+                            </div>
+                            <div class="col col-s-3">
+                                <a href="" class="button button--mobile product-select__button p-x-4 mr-b-10">Xem tất
+                                    cả</a>
+                            </div>
+                        </div>
+                    </div>
                     <div class="row">
-                        <div class="col col-s-3">
-                            <a href="" class="button product-select__link p-x-8 m-b-10">Thay màn hình</a>
-                        </div>
-                        <div class="col col-s-3">
-                            <a href="" class="button product-select__link p-x-8 m-b-10">Thay kính</a>
-                        </div>
-                        <div class="col col-s-3">
-                            <a href="" class="button product-select__link p-x-8 m-b-10">Thay cảm ứng</a>
-                        </div>
-                        <div class="col col-s-3">
-                            <a href="" class="button product-select__link p-x-8 m-b-10">Thay pin</a>
-                        </div>
-                        <div class="col col-s-3">
-                            <a href="" class="button product-select__link p-x-8 m-b-10">Thay loa</a>
-                        </div>
-                        <div class="col col-s-3">
-                            <a href="" class="button product-select__link p-x-8 m-b-10">Thay đuôi sạc</a>
-                        </div>
-                        <div class="col col-s-3">
-                            <a href="" class="button product-select__link p-x-8 m-b-10">Thay camera</a>
-                        </div>
-                        <div class="col col-s-3">
-                            <a href="" class="button product-select__link p-x-8 m-b-10">Xem tất cả</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col col-s-6">
-                        <a class="product-item">
-                            <div class="product-discount br-t-2">
-                                <strong class="product-discount__text">-10%</strong>
-                            </div>
-                            <div class="product-container">
-                                <img src="./assets/images/product/apple/ipad/screen-ipad-pro-12.9.jpg"
-                                    alt="thay màn hình ipad pro 12.9 2021" class="product-container__img">
-                                <div class="product-wan">
-                                    <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
-                                    <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
+                        <div class="col col-s-6 col-m-3">
+                            <a class="product-item">
+                                <div class="product-discount br-t-2">
+                                    <strong class="product-discount__text">-10%</strong>
                                 </div>
-                            </div>
-                            <p class="product-item__name p-x-8">Thay màn hình hình iPad Pro 12.9 2021</p>
-                            <div class="product-price p-x-8 m-b-10">
-                                <span class="product-price__new">5.800.000</span>
-                                <span class="product-price__old">6.380.000</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col col-s-6">
-                        <a class="product-item">
-                            <div class="product-discount br-t-2">
-                                <strong class="product-discount__text">-10%</strong>
-                            </div>
-                            <div class="product-container">
-                                <img src="./assets/images/product/apple/ipad/touch-ipad-pro-12-9-inch-2020.jpg"
-                                    alt="thay kính ipad pro 12.9 2021" class="product-container__img">
-                                <div class="product-wan">
-                                    <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
-                                    <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
+                                <div class="product-container">
+                                    <img src="./assets/images/product/apple/ipad/screen-ipad-pro-12.9.jpg"
+                                        alt="thay màn hình ipad pro 12.9 2021" class="product-container__img">
+                                    <div class="product-wan">
+                                        <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
+                                        <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
+                                    </div>
                                 </div>
-                            </div>
-                            <p class="product-item__name p-x-8">Thay kính iPad Pro 12.9 2020</p>
-                            <div class="product-price p-x-8 m-b-10">
-                                <span class="product-price__new">1.850.000</span>
-                                <span class="product-price__old">2.035.000</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col col-s-6">
-                        <a class="product-item">
-                            <div class="product-discount br-t-2">
-                                <strong class="product-discount__text">-10%</strong>
-                            </div>
-                            <div class="product-container">
-                                <img src="assets/images/product/apple/ipad/touch-ipad-pro-12.9.jpg"
-                                    alt="thay cảm ứng ipad pro 12.9 2021" class="product-container__img">
-                                <div class="product-wan">
-                                    <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
-                                    <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
+                                <p class="product-item__name p-x-4">Thay màn hình hình iPad Pro 12.9 2021</p>
+                                <div class="product-price p-x-4 mr-b-10">
+                                    <span class="product-price__new">5.800.000</span>
+                                    <span class="product-price__old">6.380.000</span>
                                 </div>
-                            </div>
-                            <p class="product-item__name p-x-8">Thay cảm ứng iPad Pro 12.9 2021</p>
-                            <div class="product-price p-x-8 m-b-10">
-                                <span class="product-price__new">3.800.000</span>
-                                <span class="product-price__old">4.180.000</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col col-s-6">
-                        <a class="product-item">
-                            <div class="product-discount br-t-2">
-                                <strong class="product-discount__text">-10%</strong>
-                            </div>
-                            <div class="product-container">
-                                <img src="assets/images/product/apple/ipad/battery-ipad-pro-12-9-inch-2017.jpg"
-                                    alt="thay pin ipad pro 12.9 2017" class="product-container__img">
-                                <div class="product-wan">
-                                    <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
-                                    <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
+                            </a>
+                        </div>
+                        <div class="col col-s-6 col-m-3">
+                            <a class="product-item">
+                                <div class="product-discount br-t-2">
+                                    <strong class="product-discount__text">-10%</strong>
                                 </div>
-                            </div>
-                            <p class="product-item__name p-x-8">Thay pin iPad Pro 12.9 2017</p>
-                            <div class="product-price p-x-8 m-b-10">
-                                <span class="product-price__new">950.000</span>
-                                <span class="product-price__old">1.045.000</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col col-s-6">
-                        <a class="product-item">
-                            <div class="product-discount br-t-2">
-                                <strong class="product-discount__text">-10%</strong>
-                            </div>
-                            <div class="product-container">
-                                <img src="assets/images/product/apple/ipad/speaker-ngoai-ipad-pro-12.9-2021-460x460.jpg"
-                                    alt="thay loa ipad Pro 12.9 2021" class="product-container__img">
-                                <div class="product-wan">
-                                    <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
-                                    <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
+                                <div class="product-container">
+                                    <img src="./assets/images/product/apple/ipad/touch-ipad-pro-12-9-inch-2020.jpg"
+                                        alt="thay kính ipad pro 12.9 2021" class="product-container__img">
+                                    <div class="product-wan">
+                                        <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
+                                        <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
+                                    </div>
                                 </div>
-                            </div>
-                            <p class="product-item__name p-x-8">Thay loa iPad Pro 12.9 2021</p>
-                            <div class="product-price p-x-8 m-b-10">
-                                <span class="product-price__new">1.250.000</span>
-                                <span class="product-price__old">1.375.000</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col col-s-6">
-                        <a class="product-item">
-                            <div class="product-discount br-t-2">
-                                <strong class="product-discount__text">-10%</strong>
-                            </div>
-                            <div class="product-container">
-                                <img src="assets/images/product/apple/ipad/thay-chan-sac-ipad-pro-12-9-inch-2020-460x460.jpg"
-                                    alt="thay chân sạc ipad pro 12.9 2020" class="product-container__img">
-                                <div class="product-wan">
-                                    <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
-                                    <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
+                                <p class="product-item__name p-x-4">Thay kính iPad Pro 12.9 2020</p>
+                                <div class="product-price p-x-4 mr-b-10">
+                                    <span class="product-price__new">1.850.000</span>
+                                    <span class="product-price__old">2.035.000</span>
                                 </div>
-                            </div>
-                            <p class="product-item__name p-x-8">Thay chân sạc iPad Pro 12.9 2020</p>
-                            <div class="product-price p-x-8 m-b-10">
-                                <span class="product-price__new">1.700.000</span>
-                                <span class="product-price__old">1.870.000</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col col-s-6">
-                        <a class="product-item">
-                            <div class="product-discount br-t-2">
-                                <strong class="product-discount__text">-10%</strong>
-                            </div>
-                            <div class="product-container">
-                                <img src="assets/images/product/apple/ipad/camera-sau-ipad-pro-12.9-2021-1-460x460.jpg"
-                                    alt="thay camera ipad pro 12.9 2021" class="product-container__img">
-                                <div class="product-wan">
-                                    <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
-                                    <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
+                            </a>
+                        </div>
+                        <div class="col col-s-6 col-m-3">
+                            <a class="product-item">
+                                <div class="product-discount br-t-2">
+                                    <strong class="product-discount__text">-10%</strong>
                                 </div>
-                            </div>
-                            <p class="product-item__name p-x-8">Thay camera iPad Pro 12.9 2021</p>
-                            <div class="product-price p-x-8 m-b-10">
-                                <span class="product-price__new">1.250.000</span>
-                                <span class="product-price__old">1.375.000</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col col-s-6">
-                        <a class="product-item">
-                            <div class="product-discount br-t-2">
-                                <strong class="product-discount__text">-10%</strong>
-                            </div>
-                            <div class="product-container">
-                                <img src="assets/images/product/apple/ipad/case-ipad-pro-12-9-inch-2021-460x460.jpg"
-                                    alt="thay vo ipad pro 12.9 2021" class="product-container__img">
-                                <div class="product-wan">
-                                    <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
-                                    <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
+                                <div class="product-container">
+                                    <img src="assets/images/product/apple/ipad/touch-ipad-pro-12.9.jpg"
+                                        alt="thay cảm ứng ipad pro 12.9 2021" class="product-container__img">
+                                    <div class="product-wan">
+                                        <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
+                                        <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
+                                    </div>
                                 </div>
-                            </div>
-                            <p class="product-item__name p-x-8">Thay vỏ iPad Pro 12.9 2021</p>
-                            <div class="product-price p-x-8 m-b-10">
-                                <span class="product-price__new">2.800.000</span>
-                                <span class="product-price__old">3.080.000</span>
-                            </div>
-                        </a>
+                                <p class="product-item__name p-x-4">Thay cảm ứng iPad Pro 12.9 2021</p>
+                                <div class="product-price p-x-4 mr-b-10">
+                                    <span class="product-price__new">3.800.000</span>
+                                    <span class="product-price__old">4.180.000</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col col-s-6 col-m-3">
+                            <a class="product-item">
+                                <div class="product-discount br-t-2">
+                                    <strong class="product-discount__text">-10%</strong>
+                                </div>
+                                <div class="product-container">
+                                    <img src="assets/images/product/apple/ipad/battery-ipad-pro-12-9-inch-2017.jpg"
+                                        alt="thay pin ipad pro 12.9 2017" class="product-container__img">
+                                    <div class="product-wan">
+                                        <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
+                                        <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
+                                    </div>
+                                </div>
+                                <p class="product-item__name p-x-4">Thay pin iPad Pro 12.9 2017</p>
+                                <div class="product-price p-x-4 mr-b-10">
+                                    <span class="product-price__new">950.000</span>
+                                    <span class="product-price__old">1.045.000</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col col-s-6 col-m-3">
+                            <a class="product-item">
+                                <div class="product-discount br-t-2">
+                                    <strong class="product-discount__text">-10%</strong>
+                                </div>
+                                <div class="product-container">
+                                    <img src="assets/images/product/apple/ipad/speaker-ngoai-ipad-pro-12.9-2021-460x460.jpg"
+                                        alt="thay loa ipad Pro 12.9 2021" class="product-container__img">
+                                    <div class="product-wan">
+                                        <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
+                                        <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
+                                    </div>
+                                </div>
+                                <p class="product-item__name p-x-4">Thay loa iPad Pro 12.9 2021</p>
+                                <div class="product-price p-x-4 mr-b-10">
+                                    <span class="product-price__new">1.250.000</span>
+                                    <span class="product-price__old">1.375.000</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col col-s-6 col-m-3">
+                            <a class="product-item">
+                                <div class="product-discount br-t-2">
+                                    <strong class="product-discount__text">-10%</strong>
+                                </div>
+                                <div class="product-container">
+                                    <img src="assets/images/product/apple/ipad/thay-chan-sac-ipad-pro-12-9-inch-2020-460x460.jpg"
+                                        alt="thay chân sạc ipad pro 12.9 2020" class="product-container__img">
+                                    <div class="product-wan">
+                                        <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
+                                        <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
+                                    </div>
+                                </div>
+                                <p class="product-item__name p-x-4">Thay chân sạc iPad Pro 12.9 2020</p>
+                                <div class="product-price p-x-4 mr-b-10">
+                                    <span class="product-price__new">1.700.000</span>
+                                    <span class="product-price__old">1.870.000</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col col-s-6 col-m-3">
+                            <a class="product-item">
+                                <div class="product-discount br-t-2">
+                                    <strong class="product-discount__text">-10%</strong>
+                                </div>
+                                <div class="product-container">
+                                    <img src="assets/images/product/apple/ipad/camera-sau-ipad-pro-12.9-2021-1-460x460.jpg"
+                                        alt="thay camera ipad pro 12.9 2021" class="product-container__img">
+                                    <div class="product-wan">
+                                        <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
+                                        <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
+                                    </div>
+                                </div>
+                                <p class="product-item__name p-x-4">Thay camera iPad Pro 12.9 2021</p>
+                                <div class="product-price p-x-4 mr-b-10">
+                                    <span class="product-price__new">1.250.000</span>
+                                    <span class="product-price__old">1.375.000</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col col-s-6 col-m-3">
+                            <a class="product-item">
+                                <div class="product-discount br-t-2">
+                                    <strong class="product-discount__text">-10%</strong>
+                                </div>
+                                <div class="product-container">
+                                    <img src="assets/images/product/apple/ipad/case-ipad-pro-12-9-inch-2021-460x460.jpg"
+                                        alt="thay vo ipad pro 12.9 2021" class="product-container__img">
+                                    <div class="product-wan">
+                                        <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
+                                        <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
+                                    </div>
+                                </div>
+                                <p class="product-item__name p-x-4">Thay vỏ iPad Pro 12.9 2021</p>
+                                <div class="product-price p-x-4 mr-b-10">
+                                    <span class="product-price__new">2.800.000</span>
+                                    <span class="product-price__old">3.080.000</span>
+                                </div>
+                            </a>
+                        </div>
                     </div>
-                </div>
-            </section>
-            <section class="section product">
-                <h2 class="section__heading m-b-10  b-color b-solid b-l-4">Sửa Airpod</h2>
-                <div class="product-select">
+                </section>
+                <section class="section mr-t-10 product">
+                    <h2 class="section__heading mr-b-10  b-color b-solid b-l-4">Sửa apple watch</h2>
+                    <div class="product-select">
+                        <div class="row">
+                            <div class="col col-s-3">
+                                <a href="" class="button button--mobile product-select__button p-x-4 mr-b-10">Thay màn
+                                    hình</a>
+                            </div>
+                            <div class="col col-s-3">
+                                <a href="" class="button button--mobile product-select__button p-x-4 mr-b-10">Thay
+                                    kính</a>
+                            </div>
+                            <div class="col col-s-3">
+                                <a href="" class="button button--mobile product-select__button p-x-4 mr-b-10">Thay cảm
+                                    ứng</a>
+                            </div>
+                            <div class="col col-s-3">
+                                <a href="" class="button button--mobile product-select__button p-x-4 mr-b-10">Thay
+                                    pin</a>
+                            </div>
+                            <div class="col col-s-3">
+                                <a href="" class="button button--mobile product-select__button p-x-4 mr-b-10">Thay
+                                    loa</a>
+                            </div>
+                            <div class="col col-s-3">
+                                <a href="" class="button button--mobile product-select__button p-x-4 mr-b-10">Thay đuôi
+                                    sạc</a>
+                            </div>
+                            <div class="col col-s-3">
+                                <a href="" class="button button--mobile product-select__button p-x-4 mr-b-10">Thay
+                                    camera</a>
+                            </div>
+                            <div class="col col-s-3">
+                                <a href="" class="button button--mobile product-select__button p-x-4 mr-b-10">Xem tất
+                                    cả</a>
+                            </div>
+                        </div>
+                    </div>
                     <div class="row">
-                        <div class="col col-s-3">
-                            <a href="" class="button product-select__link p-x-8 m-b-10">Thay màn hình</a>
-                        </div>
-                        <div class="col col-s-3">
-                            <a href="" class="button product-select__link p-x-8 m-b-10">Thay kính</a>
-                        </div>
-                        <div class="col col-s-3">
-                            <a href="" class="button product-select__link p-x-8 m-b-10">Thay cảm ứng</a>
-                        </div>
-                        <div class="col col-s-3">
-                            <a href="" class="button product-select__link p-x-8 m-b-10">Thay pin</a>
-                        </div>
-                        <div class="col col-s-3">
-                            <a href="" class="button product-select__link p-x-8 m-b-10">Thay loa</a>
-                        </div>
-                        <div class="col col-s-3">
-                            <a href="" class="button product-select__link p-x-8 m-b-10">Thay đuôi sạc</a>
-                        </div>
-                        <div class="col col-s-3">
-                            <a href="" class="button product-select__link p-x-8 m-b-10">Thay camera</a>
-                        </div>
-                        <div class="col col-s-3">
-                            <a href="" class="button product-select__link p-x-8 m-b-10">Xem tất cả</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col col-s-6">
-                        <a class="product-item">
-                            <div class="product-discount br-t-2">
-                                <strong class="product-discount__text">-10%</strong>
-                            </div>
-                            <div class="product-container">
-                                <img src="./assets/images/product/apple/ipad/screen-ipad-pro-12.9.jpg"
-                                    alt="thay màn hình ipad pro 12.9 2021" class="product-container__img">
-                                <div class="product-wan">
-                                    <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
-                                    <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
+                        <div class="col col-s-6 col-m-3">
+                            <a class="product-item">
+                                <div class="product-discount br-t-2">
+                                    <strong class="product-discount__text">-10%</strong>
                                 </div>
-                            </div>
-                            <p class="product-item__name p-x-8">Thay màn hình hình iPad Pro 12.9 2021</p>
-                            <div class="product-price p-x-8 m-b-10">
-                                <span class="product-price__new">5.800.000</span>
-                                <span class="product-price__old">6.380.000</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col col-s-6">
-                        <a class="product-item">
-                            <div class="product-discount br-t-2">
-                                <strong class="product-discount__text">-10%</strong>
-                            </div>
-                            <div class="product-container">
-                                <img src="./assets/images/product/apple/ipad/touch-ipad-pro-12-9-inch-2020.jpg"
-                                    alt="thay kính ipad pro 12.9 2021" class="product-container__img">
-                                <div class="product-wan">
-                                    <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
-                                    <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
+                                <div class="product-container">
+                                    <img src="./assets/images/product/apple/ipad/screen-ipad-pro-12.9.jpg"
+                                        alt="thay màn hình ipad pro 12.9 2021" class="product-container__img">
+                                    <div class="product-wan">
+                                        <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
+                                        <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
+                                    </div>
                                 </div>
-                            </div>
-                            <p class="product-item__name p-x-8">Thay kính iPad Pro 12.9 2020</p>
-                            <div class="product-price p-x-8 m-b-10">
-                                <span class="product-price__new">1.850.000</span>
-                                <span class="product-price__old">2.035.000</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col col-s-6">
-                        <a class="product-item">
-                            <div class="product-discount br-t-2">
-                                <strong class="product-discount__text">-10%</strong>
-                            </div>
-                            <div class="product-container">
-                                <img src="assets/images/product/apple/ipad/touch-ipad-pro-12.9.jpg"
-                                    alt="thay cảm ứng ipad pro 12.9 2021" class="product-container__img">
-                                <div class="product-wan">
-                                    <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
-                                    <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
+                                <p class="product-item__name p-x-4">Thay màn hình hình iPad Pro 12.9 2021</p>
+                                <div class="product-price p-x-4 mr-b-10">
+                                    <span class="product-price__new">5.800.000</span>
+                                    <span class="product-price__old">6.380.000</span>
                                 </div>
-                            </div>
-                            <p class="product-item__name p-x-8">Thay cảm ứng iPad Pro 12.9 2021</p>
-                            <div class="product-price p-x-8 m-b-10">
-                                <span class="product-price__new">3.800.000</span>
-                                <span class="product-price__old">4.180.000</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col col-s-6">
-                        <a class="product-item">
-                            <div class="product-discount br-t-2">
-                                <strong class="product-discount__text">-10%</strong>
-                            </div>
-                            <div class="product-container">
-                                <img src="assets/images/product/apple/ipad/battery-ipad-pro-12-9-inch-2017.jpg"
-                                    alt="thay pin ipad pro 12.9 2017" class="product-container__img">
-                                <div class="product-wan">
-                                    <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
-                                    <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
+                            </a>
+                        </div>
+                        <div class="col col-s-6 col-m-3">
+                            <a class="product-item">
+                                <div class="product-discount br-t-2">
+                                    <strong class="product-discount__text">-10%</strong>
                                 </div>
-                            </div>
-                            <p class="product-item__name p-x-8">Thay pin iPad Pro 12.9 2017</p>
-                            <div class="product-price p-x-8 m-b-10">
-                                <span class="product-price__new">950.000</span>
-                                <span class="product-price__old">1.045.000</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col col-s-6">
-                        <a class="product-item">
-                            <div class="product-discount br-t-2">
-                                <strong class="product-discount__text">-10%</strong>
-                            </div>
-                            <div class="product-container">
-                                <img src="assets/images/product/apple/ipad/speaker-ngoai-ipad-pro-12.9-2021-460x460.jpg"
-                                    alt="thay loa ipad Pro 12.9 2021" class="product-container__img">
-                                <div class="product-wan">
-                                    <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
-                                    <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
+                                <div class="product-container">
+                                    <img src="./assets/images/product/apple/ipad/touch-ipad-pro-12-9-inch-2020.jpg"
+                                        alt="thay kính ipad pro 12.9 2021" class="product-container__img">
+                                    <div class="product-wan">
+                                        <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
+                                        <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
+                                    </div>
                                 </div>
-                            </div>
-                            <p class="product-item__name p-x-8">Thay loa iPad Pro 12.9 2021</p>
-                            <div class="product-price p-x-8 m-b-10">
-                                <span class="product-price__new">1.250.000</span>
-                                <span class="product-price__old">1.375.000</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col col-s-6">
-                        <a class="product-item">
-                            <div class="product-discount br-t-2">
-                                <strong class="product-discount__text">-10%</strong>
-                            </div>
-                            <div class="product-container">
-                                <img src="assets/images/product/apple/ipad/thay-chan-sac-ipad-pro-12-9-inch-2020-460x460.jpg"
-                                    alt="thay chân sạc ipad pro 12.9 2020" class="product-container__img">
-                                <div class="product-wan">
-                                    <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
-                                    <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
+                                <p class="product-item__name p-x-4">Thay kính iPad Pro 12.9 2020</p>
+                                <div class="product-price p-x-4 mr-b-10">
+                                    <span class="product-price__new">1.850.000</span>
+                                    <span class="product-price__old">2.035.000</span>
                                 </div>
-                            </div>
-                            <p class="product-item__name p-x-8">Thay chân sạc iPad Pro 12.9 2020</p>
-                            <div class="product-price p-x-8 m-b-10">
-                                <span class="product-price__new">1.700.000</span>
-                                <span class="product-price__old">1.870.000</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col col-s-6">
-                        <a class="product-item">
-                            <div class="product-discount br-t-2">
-                                <strong class="product-discount__text">-10%</strong>
-                            </div>
-                            <div class="product-container">
-                                <img src="assets/images/product/apple/ipad/camera-sau-ipad-pro-12.9-2021-1-460x460.jpg"
-                                    alt="thay camera ipad pro 12.9 2021" class="product-container__img">
-                                <div class="product-wan">
-                                    <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
-                                    <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
+                            </a>
+                        </div>
+                        <div class="col col-s-6 col-m-3">
+                            <a class="product-item">
+                                <div class="product-discount br-t-2">
+                                    <strong class="product-discount__text">-10%</strong>
                                 </div>
-                            </div>
-                            <p class="product-item__name p-x-8">Thay camera iPad Pro 12.9 2021</p>
-                            <div class="product-price p-x-8 m-b-10">
-                                <span class="product-price__new">1.250.000</span>
-                                <span class="product-price__old">1.375.000</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col col-s-6">
-                        <a class="product-item">
-                            <div class="product-discount br-t-2">
-                                <strong class="product-discount__text">-10%</strong>
-                            </div>
-                            <div class="product-container">
-                                <img src="assets/images/product/apple/ipad/case-ipad-pro-12-9-inch-2021-460x460.jpg"
-                                    alt="thay vo ipad pro 12.9 2021" class="product-container__img">
-                                <div class="product-wan">
-                                    <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
-                                    <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
+                                <div class="product-container">
+                                    <img src="assets/images/product/apple/ipad/touch-ipad-pro-12.9.jpg"
+                                        alt="thay cảm ứng ipad pro 12.9 2021" class="product-container__img">
+                                    <div class="product-wan">
+                                        <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
+                                        <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
+                                    </div>
                                 </div>
-                            </div>
-                            <p class="product-item__name p-x-8">Thay vỏ iPad Pro 12.9 2021</p>
-                            <div class="product-price p-x-8 m-b-10">
-                                <span class="product-price__new">2.800.000</span>
-                                <span class="product-price__old">3.080.000</span>
-                            </div>
-                        </a>
+                                <p class="product-item__name p-x-4">Thay cảm ứng iPad Pro 12.9 2021</p>
+                                <div class="product-price p-x-4 mr-b-10">
+                                    <span class="product-price__new">3.800.000</span>
+                                    <span class="product-price__old">4.180.000</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col col-s-6 col-m-3">
+                            <a class="product-item">
+                                <div class="product-discount br-t-2">
+                                    <strong class="product-discount__text">-10%</strong>
+                                </div>
+                                <div class="product-container">
+                                    <img src="assets/images/product/apple/ipad/battery-ipad-pro-12-9-inch-2017.jpg"
+                                        alt="thay pin ipad pro 12.9 2017" class="product-container__img">
+                                    <div class="product-wan">
+                                        <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
+                                        <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
+                                    </div>
+                                </div>
+                                <p class="product-item__name p-x-4">Thay pin iPad Pro 12.9 2017</p>
+                                <div class="product-price p-x-4 mr-b-10">
+                                    <span class="product-price__new">950.000</span>
+                                    <span class="product-price__old">1.045.000</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col col-s-6 col-m-3">
+                            <a class="product-item">
+                                <div class="product-discount br-t-2">
+                                    <strong class="product-discount__text">-10%</strong>
+                                </div>
+                                <div class="product-container">
+                                    <img src="assets/images/product/apple/ipad/speaker-ngoai-ipad-pro-12.9-2021-460x460.jpg"
+                                        alt="thay loa ipad Pro 12.9 2021" class="product-container__img">
+                                    <div class="product-wan">
+                                        <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
+                                        <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
+                                    </div>
+                                </div>
+                                <p class="product-item__name p-x-4">Thay loa iPad Pro 12.9 2021</p>
+                                <div class="product-price p-x-4 mr-b-10">
+                                    <span class="product-price__new">1.250.000</span>
+                                    <span class="product-price__old">1.375.000</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col col-s-6 col-m-3">
+                            <a class="product-item">
+                                <div class="product-discount br-t-2">
+                                    <strong class="product-discount__text">-10%</strong>
+                                </div>
+                                <div class="product-container">
+                                    <img src="assets/images/product/apple/ipad/thay-chan-sac-ipad-pro-12-9-inch-2020-460x460.jpg"
+                                        alt="thay chân sạc ipad pro 12.9 2020" class="product-container__img">
+                                    <div class="product-wan">
+                                        <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
+                                        <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
+                                    </div>
+                                </div>
+                                <p class="product-item__name p-x-4">Thay chân sạc iPad Pro 12.9 2020</p>
+                                <div class="product-price p-x-4 mr-b-10">
+                                    <span class="product-price__new">1.700.000</span>
+                                    <span class="product-price__old">1.870.000</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col col-s-6 col-m-3">
+                            <a class="product-item">
+                                <div class="product-discount br-t-2">
+                                    <strong class="product-discount__text">-10%</strong>
+                                </div>
+                                <div class="product-container">
+                                    <img src="assets/images/product/apple/ipad/camera-sau-ipad-pro-12.9-2021-1-460x460.jpg"
+                                        alt="thay camera ipad pro 12.9 2021" class="product-container__img">
+                                    <div class="product-wan">
+                                        <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
+                                        <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
+                                    </div>
+                                </div>
+                                <p class="product-item__name p-x-4">Thay camera iPad Pro 12.9 2021</p>
+                                <div class="product-price p-x-4 mr-b-10">
+                                    <span class="product-price__new">1.250.000</span>
+                                    <span class="product-price__old">1.375.000</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col col-s-6 col-m-3">
+                            <a class="product-item">
+                                <div class="product-discount br-t-2">
+                                    <strong class="product-discount__text">-10%</strong>
+                                </div>
+                                <div class="product-container">
+                                    <img src="assets/images/product/apple/ipad/case-ipad-pro-12-9-inch-2021-460x460.jpg"
+                                        alt="thay vo ipad pro 12.9 2021" class="product-container__img">
+                                    <div class="product-wan">
+                                        <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
+                                        <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
+                                    </div>
+                                </div>
+                                <p class="product-item__name p-x-4">Thay vỏ iPad Pro 12.9 2021</p>
+                                <div class="product-price p-x-4 mr-b-10">
+                                    <span class="product-price__new">2.800.000</span>
+                                    <span class="product-price__old">3.080.000</span>
+                                </div>
+                            </a>
+                        </div>
                     </div>
-                </div>
-            </section>
-            <section class="section product">
-                <h2 class="section__heading m-b-10  b-color b-solid b-l-4">Sửa apple watch</h2>
-                <div class="product-select">
+                </section>
+                <section class="section mr-t-10 product">
+                    <h2 class="section__heading mr-b-10  b-color b-solid b-l-4">Sửa laptop</h2>
+                    <div class="product-select">
+                        <div class="row">
+                            <div class="col col-s-3">
+                                <a href="" class="button button--mobile product-select__button p-x-4 mr-b-10">Thay màn
+                                    hình</a>
+                            </div>
+                            <div class="col col-s-3">
+                                <a href="" class="button button--mobile product-select__button p-x-4 mr-b-10">Thay
+                                    kính</a>
+                            </div>
+                            <div class="col col-s-3">
+                                <a href="" class="button button--mobile product-select__button p-x-4 mr-b-10">Thay cảm
+                                    ứng</a>
+                            </div>
+                            <div class="col col-s-3">
+                                <a href="" class="button button--mobile product-select__button p-x-4 mr-b-10">Thay
+                                    pin</a>
+                            </div>
+                            <div class="col col-s-3">
+                                <a href="" class="button button--mobile product-select__button p-x-4 mr-b-10">Thay
+                                    loa</a>
+                            </div>
+                            <div class="col col-s-3">
+                                <a href="" class="button button--mobile product-select__button p-x-4 mr-b-10">Thay đuôi
+                                    sạc</a>
+                            </div>
+                            <div class="col col-s-3">
+                                <a href="" class="button button--mobile product-select__button p-x-4 mr-b-10">Thay
+                                    camera</a>
+                            </div>
+                            <div class="col col-s-3">
+                                <a href="" class="button button--mobile product-select__button p-x-4 mr-b-10">Xem tất
+                                    cả</a>
+                            </div>
+                        </div>
+                    </div>
                     <div class="row">
-                        <div class="col col-s-3">
-                            <a href="" class="button product-select__link p-x-8 m-b-10">Thay màn hình</a>
-                        </div>
-                        <div class="col col-s-3">
-                            <a href="" class="button product-select__link p-x-8 m-b-10">Thay kính</a>
-                        </div>
-                        <div class="col col-s-3">
-                            <a href="" class="button product-select__link p-x-8 m-b-10">Thay cảm ứng</a>
-                        </div>
-                        <div class="col col-s-3">
-                            <a href="" class="button product-select__link p-x-8 m-b-10">Thay pin</a>
-                        </div>
-                        <div class="col col-s-3">
-                            <a href="" class="button product-select__link p-x-8 m-b-10">Thay loa</a>
-                        </div>
-                        <div class="col col-s-3">
-                            <a href="" class="button product-select__link p-x-8 m-b-10">Thay đuôi sạc</a>
-                        </div>
-                        <div class="col col-s-3">
-                            <a href="" class="button product-select__link p-x-8 m-b-10">Thay camera</a>
-                        </div>
-                        <div class="col col-s-3">
-                            <a href="" class="button product-select__link p-x-8 m-b-10">Xem tất cả</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col col-s-6">
-                        <a class="product-item">
-                            <div class="product-discount br-t-2">
-                                <strong class="product-discount__text">-10%</strong>
-                            </div>
-                            <div class="product-container">
-                                <img src="./assets/images/product/apple/ipad/screen-ipad-pro-12.9.jpg"
-                                    alt="thay màn hình ipad pro 12.9 2021" class="product-container__img">
-                                <div class="product-wan">
-                                    <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
-                                    <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
+                        <div class="col col-s-6 col-m-3">
+                            <a class="product-item">
+                                <div class="product-discount br-t-2">
+                                    <strong class="product-discount__text">-10%</strong>
                                 </div>
-                            </div>
-                            <p class="product-item__name p-x-8">Thay màn hình hình iPad Pro 12.9 2021</p>
-                            <div class="product-price p-x-8 m-b-10">
-                                <span class="product-price__new">5.800.000</span>
-                                <span class="product-price__old">6.380.000</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col col-s-6">
-                        <a class="product-item">
-                            <div class="product-discount br-t-2">
-                                <strong class="product-discount__text">-10%</strong>
-                            </div>
-                            <div class="product-container">
-                                <img src="./assets/images/product/apple/ipad/touch-ipad-pro-12-9-inch-2020.jpg"
-                                    alt="thay kính ipad pro 12.9 2021" class="product-container__img">
-                                <div class="product-wan">
-                                    <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
-                                    <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
+                                <div class="product-container">
+                                    <img src="./assets/images/product/apple/ipad/screen-ipad-pro-12.9.jpg"
+                                        alt="thay màn hình ipad pro 12.9 2021" class="product-container__img">
+                                    <div class="product-wan">
+                                        <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
+                                        <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
+                                    </div>
                                 </div>
-                            </div>
-                            <p class="product-item__name p-x-8">Thay kính iPad Pro 12.9 2020</p>
-                            <div class="product-price p-x-8 m-b-10">
-                                <span class="product-price__new">1.850.000</span>
-                                <span class="product-price__old">2.035.000</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col col-s-6">
-                        <a class="product-item">
-                            <div class="product-discount br-t-2">
-                                <strong class="product-discount__text">-10%</strong>
-                            </div>
-                            <div class="product-container">
-                                <img src="assets/images/product/apple/ipad/touch-ipad-pro-12.9.jpg"
-                                    alt="thay cảm ứng ipad pro 12.9 2021" class="product-container__img">
-                                <div class="product-wan">
-                                    <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
-                                    <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
+                                <p class="product-item__name p-x-4">Thay màn hình hình iPad Pro 12.9 2021</p>
+                                <div class="product-price p-x-4 mr-b-10">
+                                    <span class="product-price__new">5.800.000</span>
+                                    <span class="product-price__old">6.380.000</span>
                                 </div>
-                            </div>
-                            <p class="product-item__name p-x-8">Thay cảm ứng iPad Pro 12.9 2021</p>
-                            <div class="product-price p-x-8 m-b-10">
-                                <span class="product-price__new">3.800.000</span>
-                                <span class="product-price__old">4.180.000</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col col-s-6">
-                        <a class="product-item">
-                            <div class="product-discount br-t-2">
-                                <strong class="product-discount__text">-10%</strong>
-                            </div>
-                            <div class="product-container">
-                                <img src="assets/images/product/apple/ipad/battery-ipad-pro-12-9-inch-2017.jpg"
-                                    alt="thay pin ipad pro 12.9 2017" class="product-container__img">
-                                <div class="product-wan">
-                                    <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
-                                    <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
+                            </a>
+                        </div>
+                        <div class="col col-s-6 col-m-3">
+                            <a class="product-item">
+                                <div class="product-discount br-t-2">
+                                    <strong class="product-discount__text">-10%</strong>
                                 </div>
-                            </div>
-                            <p class="product-item__name p-x-8">Thay pin iPad Pro 12.9 2017</p>
-                            <div class="product-price p-x-8 m-b-10">
-                                <span class="product-price__new">950.000</span>
-                                <span class="product-price__old">1.045.000</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col col-s-6">
-                        <a class="product-item">
-                            <div class="product-discount br-t-2">
-                                <strong class="product-discount__text">-10%</strong>
-                            </div>
-                            <div class="product-container">
-                                <img src="assets/images/product/apple/ipad/speaker-ngoai-ipad-pro-12.9-2021-460x460.jpg"
-                                    alt="thay loa ipad Pro 12.9 2021" class="product-container__img">
-                                <div class="product-wan">
-                                    <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
-                                    <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
+                                <div class="product-container">
+                                    <img src="./assets/images/product/apple/ipad/touch-ipad-pro-12-9-inch-2020.jpg"
+                                        alt="thay kính ipad pro 12.9 2021" class="product-container__img">
+                                    <div class="product-wan">
+                                        <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
+                                        <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
+                                    </div>
                                 </div>
-                            </div>
-                            <p class="product-item__name p-x-8">Thay loa iPad Pro 12.9 2021</p>
-                            <div class="product-price p-x-8 m-b-10">
-                                <span class="product-price__new">1.250.000</span>
-                                <span class="product-price__old">1.375.000</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col col-s-6">
-                        <a class="product-item">
-                            <div class="product-discount br-t-2">
-                                <strong class="product-discount__text">-10%</strong>
-                            </div>
-                            <div class="product-container">
-                                <img src="assets/images/product/apple/ipad/thay-chan-sac-ipad-pro-12-9-inch-2020-460x460.jpg"
-                                    alt="thay chân sạc ipad pro 12.9 2020" class="product-container__img">
-                                <div class="product-wan">
-                                    <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
-                                    <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
+                                <p class="product-item__name p-x-4">Thay kính iPad Pro 12.9 2020</p>
+                                <div class="product-price p-x-4 mr-b-10">
+                                    <span class="product-price__new">1.850.000</span>
+                                    <span class="product-price__old">2.035.000</span>
                                 </div>
-                            </div>
-                            <p class="product-item__name p-x-8">Thay chân sạc iPad Pro 12.9 2020</p>
-                            <div class="product-price p-x-8 m-b-10">
-                                <span class="product-price__new">1.700.000</span>
-                                <span class="product-price__old">1.870.000</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col col-s-6">
-                        <a class="product-item">
-                            <div class="product-discount br-t-2">
-                                <strong class="product-discount__text">-10%</strong>
-                            </div>
-                            <div class="product-container">
-                                <img src="assets/images/product/apple/ipad/camera-sau-ipad-pro-12.9-2021-1-460x460.jpg"
-                                    alt="thay camera ipad pro 12.9 2021" class="product-container__img">
-                                <div class="product-wan">
-                                    <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
-                                    <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
+                            </a>
+                        </div>
+                        <div class="col col-s-6 col-m-3">
+                            <a class="product-item">
+                                <div class="product-discount br-t-2">
+                                    <strong class="product-discount__text">-10%</strong>
                                 </div>
-                            </div>
-                            <p class="product-item__name p-x-8">Thay camera iPad Pro 12.9 2021</p>
-                            <div class="product-price p-x-8 m-b-10">
-                                <span class="product-price__new">1.250.000</span>
-                                <span class="product-price__old">1.375.000</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col col-s-6">
-                        <a class="product-item">
-                            <div class="product-discount br-t-2">
-                                <strong class="product-discount__text">-10%</strong>
-                            </div>
-                            <div class="product-container">
-                                <img src="assets/images/product/apple/ipad/case-ipad-pro-12-9-inch-2021-460x460.jpg"
-                                    alt="thay vo ipad pro 12.9 2021" class="product-container__img">
-                                <div class="product-wan">
-                                    <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
-                                    <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
+                                <div class="product-container">
+                                    <img src="assets/images/product/apple/ipad/touch-ipad-pro-12.9.jpg"
+                                        alt="thay cảm ứng ipad pro 12.9 2021" class="product-container__img">
+                                    <div class="product-wan">
+                                        <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
+                                        <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
+                                    </div>
                                 </div>
-                            </div>
-                            <p class="product-item__name p-x-8">Thay vỏ iPad Pro 12.9 2021</p>
-                            <div class="product-price p-x-8 m-b-10">
-                                <span class="product-price__new">2.800.000</span>
-                                <span class="product-price__old">3.080.000</span>
-                            </div>
-                        </a>
+                                <p class="product-item__name p-x-4">Thay cảm ứng iPad Pro 12.9 2021</p>
+                                <div class="product-price p-x-4 mr-b-10">
+                                    <span class="product-price__new">3.800.000</span>
+                                    <span class="product-price__old">4.180.000</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col col-s-6 col-m-3">
+                            <a class="product-item">
+                                <div class="product-discount br-t-2">
+                                    <strong class="product-discount__text">-10%</strong>
+                                </div>
+                                <div class="product-container">
+                                    <img src="assets/images/product/apple/ipad/battery-ipad-pro-12-9-inch-2017.jpg"
+                                        alt="thay pin ipad pro 12.9 2017" class="product-container__img">
+                                    <div class="product-wan">
+                                        <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
+                                        <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
+                                    </div>
+                                </div>
+                                <p class="product-item__name p-x-4">Thay pin iPad Pro 12.9 2017</p>
+                                <div class="product-price p-x-4 mr-b-10">
+                                    <span class="product-price__new">950.000</span>
+                                    <span class="product-price__old">1.045.000</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col col-s-6 col-m-3">
+                            <a class="product-item">
+                                <div class="product-discount br-t-2">
+                                    <strong class="product-discount__text">-10%</strong>
+                                </div>
+                                <div class="product-container">
+                                    <img src="assets/images/product/apple/ipad/speaker-ngoai-ipad-pro-12.9-2021-460x460.jpg"
+                                        alt="thay loa ipad Pro 12.9 2021" class="product-container__img">
+                                    <div class="product-wan">
+                                        <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
+                                        <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
+                                    </div>
+                                </div>
+                                <p class="product-item__name p-x-4">Thay loa iPad Pro 12.9 2021</p>
+                                <div class="product-price p-x-4 mr-b-10">
+                                    <span class="product-price__new">1.250.000</span>
+                                    <span class="product-price__old">1.375.000</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col col-s-6 col-m-3">
+                            <a class="product-item">
+                                <div class="product-discount br-t-2">
+                                    <strong class="product-discount__text">-10%</strong>
+                                </div>
+                                <div class="product-container">
+                                    <img src="assets/images/product/apple/ipad/thay-chan-sac-ipad-pro-12-9-inch-2020-460x460.jpg"
+                                        alt="thay chân sạc ipad pro 12.9 2020" class="product-container__img">
+                                    <div class="product-wan">
+                                        <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
+                                        <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
+                                    </div>
+                                </div>
+                                <p class="product-item__name p-x-4">Thay chân sạc iPad Pro 12.9 2020</p>
+                                <div class="product-price p-x-4 mr-b-10">
+                                    <span class="product-price__new">1.700.000</span>
+                                    <span class="product-price__old">1.870.000</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col col-s-6 col-m-3">
+                            <a class="product-item">
+                                <div class="product-discount br-t-2">
+                                    <strong class="product-discount__text">-10%</strong>
+                                </div>
+                                <div class="product-container">
+                                    <img src="assets/images/product/apple/ipad/camera-sau-ipad-pro-12.9-2021-1-460x460.jpg"
+                                        alt="thay camera ipad pro 12.9 2021" class="product-container__img">
+                                    <div class="product-wan">
+                                        <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
+                                        <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
+                                    </div>
+                                </div>
+                                <p class="product-item__name p-x-4">Thay camera iPad Pro 12.9 2021</p>
+                                <div class="product-price p-x-4 mr-b-10">
+                                    <span class="product-price__new">1.250.000</span>
+                                    <span class="product-price__old">1.375.000</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col col-s-6 col-m-3">
+                            <a class="product-item">
+                                <div class="product-discount br-t-2">
+                                    <strong class="product-discount__text">-10%</strong>
+                                </div>
+                                <div class="product-container">
+                                    <img src="assets/images/product/apple/ipad/case-ipad-pro-12-9-inch-2021-460x460.jpg"
+                                        alt="thay vo ipad pro 12.9 2021" class="product-container__img">
+                                    <div class="product-wan">
+                                        <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
+                                        <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
+                                    </div>
+                                </div>
+                                <p class="product-item__name p-x-4">Thay vỏ iPad Pro 12.9 2021</p>
+                                <div class="product-price p-x-4 mr-b-10">
+                                    <span class="product-price__new">2.800.000</span>
+                                    <span class="product-price__old">3.080.000</span>
+                                </div>
+                            </a>
+                        </div>
                     </div>
-                </div>
-            </section>
-            <section class="section product">
-                <h2 class="section__heading m-b-10  b-color b-solid b-l-4">Sửa laptop</h2>
-                <div class="product-select">
+                </section>
+                <section class="section mr-t-10 accessory">
+                    <h2 class="section__heading mr-b-10  b-color b-solid b-l-4">Phụ kiện</h2>
+                    <div class="accessory-container">
+                        <div class="accessory-item">
+                            <a href="" class="accessory-item__link">
+                                <img src="./assets/images/accessories/phu-kien-apple-icon.png" alt="Phụ kiện apple"
+                                    class="accessory-item__img">
+                            </a>
+                            <div class="accessory-item__title">Phụ kiện Apple</div>
+                        </div>
+                        <div class="accessory-item">
+                            <a href="dán cường lực" class="accessory-item__link">
+                                <img src="assets/images/accessories/phu-kien-dan-icon.png" alt="dán cường lực"
+                                    class="accessory-item__img">
+                            </a>
+                            <div class="accessory-item__title">Dán cường lực</div>
+                        </div>
+                        <div class="accessory-item">
+                            <a href="" class="accessory-item__link">
+                                <img src="./assets/images/accessories/op-lung-bao-da-icon.png" alt="bao da, ốp lưng"
+                                    class="accessory-item__img">
+                            </a>
+                            <div class="accessory-item__title">Bao da, ốp lưng</div>
+                        </div>
+                        <div class="accessory-item">
+                            <a href="" class="accessory-item__link">
+                                <img src="assets/images/accessories/chuot-key-icon.png" alt="chuột, bàn phím"
+                                    class="accessory-item__img">
+                            </a>
+                            <div class="accessory-item__title">Chuột, bàn phím</div>
+                        </div>
+                        <div class="accessory-item">
+                            <a href="" class="accessory-item__link">
+                                <img src="./assets/images/accessories/cu-cap-sac-icon.png" alt="Củ sạc, cáp sạc"
+                                    class="accessory-item__img">
+                            </a>
+                            <div class="accessory-item__title">Củ, cáp sạc</div>
+                        </div>
+                        <div class="accessory-item">
+                            <a href="" class="accessory-item__link">
+                                <img src="./assets/images/accessories/loa-icon.png" alt="Loa"
+                                    class="accessory-item__img">
+                            </a>
+                            <div class="accessory-item__title">Loa</div>
+                        </div>
+                        <div class="accessory-item">
+                            <a href="" class="accessory-item__link">
+                                <img src="./assets/images/accessories/pin-du-phong-icon.png" alt="sạc dự phòng"
+                                    class="accessory-item__img">
+                            </a>
+                            <div class="accessory-item__title">Sạc dự phòng</div>
+                        </div>
+                        <div class="accessory-item">
+                            <a href="" class="accessory-item__link">
+                                <img src="assets/images/accessories/tai-nghe-icon.png" alt="tai nghe"
+                                    class="accessory-item__img">
+                            </a>
+                            <div class="accessory-item__title">Tai nghe</div>
+                        </div>
+                        <div class="accessory-item">
+
+                            <a href="" class="accessory-item__link">
+                                <img src="./assets/images/accessories/the-nho-icon.png" alt="thẻ nhớ"
+                                    class="accessory-item__img">
+                            </a>
+                            <div class="accessory-item__title">Thẻ nhớ</div>
+                        </div>
+                        <div class="accessory-item">
+                            <a href="" class="accessory-item__link">
+                                <img src="./assets/images/accessories/usb-icon.png" alt="usb"
+                                    class="accessory-item__img">
+                            </a>
+                            <div class="accessory-item__title">USB</div>
+                        </div>
+                        <div class="accessory-item">
+                            <a href="" class="accessory-item__link">
+                                <img src="./assets/images/accessories/sim-the-icon.png" alt="thẻ sim điện thoại"
+                                    class="accessory-item__img">
+                            </a>
+                            <div class="accessory-item__title">Thẻ sim</div>
+                        </div>
+                        <div class="accessory-item">
+                            <a href="" class="accessory-item__link">
+                                <img src="./assets/images/accessories/phan-mem-icon.png" alt="phần mềm, software"
+                                    class="accessory-item__img">
+                            </a>
+                            <div class="accessory-item__title">Phần mềm</div>
+                        </div>
+                    </div>
+                </section>
+                <section class="section mr-t-10 why-select-haohuynh">
+                    <h2 class="section__heading mr-b-10  b-color b-solid b-l-4">Tại sao chọn hào huỳnh mobile</h2>
                     <div class="row">
-                        <div class="col col-s-3">
-                            <a href="" class="button product-select__link p-x-8 m-b-10">Thay màn hình</a>
+                        <div class="col-s-6">
+                            <div class="why-select-haohuynh__wrap">
+                                <img src="./assets/images/why-select-haohuynh/dich-vu.png" alt="dịch vụ chuyên nghiệp"
+                                    class="why-select-haohuynh__img">
+                                <h3 class="why-select-haohuynh__heading no-wrap">Dịch vụ chuyên nghiệp</h3>
+                                <p class="why-select-haohuynh__descipt">Hào Huỳnh Mobile là hệ thống cửa hàng sửa chữa
+                                    rộng
+                                    khắp cả nước với nhiều năm kinh nhiệm nhận sửa chữa thiết bị công nghệ : điện thoại,
+                                    laptop, tablet,...</p>
+                            </div>
                         </div>
-                        <div class="col col-s-3">
-                            <a href="" class="button product-select__link p-x-8 m-b-10">Thay kính</a>
+                        <div class="col-s-6">
+                            <div class="why-select-haohuynh__wrap">
+                                <img src="./assets/images/why-select-haohuynh/cam-ket.png" alt="cam kết"
+                                    class="why-select-haohuynh__img">
+                                <h3 class="why-select-haohuynh__heading">Cam kết</h3>
+                                <p class="why-select-haohuynh__descipt">Thời gian bảo hành 6 - 12 tháng, hoàn 100% tiền
+                                    nếu
+                                    khách hàng không hài lòng, tổng đài miễn phí 1800.8888 giải đáp thắc mắc nhanh
+                                    chóng.
+                                </p>
+                            </div>
                         </div>
-                        <div class="col col-s-3">
-                            <a href="" class="button product-select__link p-x-8 m-b-10">Thay cảm ứng</a>
+                        <div class="col-s-6">
+                            <div class="why-select-haohuynh__wrap">
+                                <img src="./assets/images/why-select-haohuynh/tiet-kiem.png" alt=""
+                                    class="why-select-haohuynh__img">
+                                <h3 class="why-select-haohuynh__heading">Cam kết tối ưu</h3>
+                                <p class="why-select-haohuynh__descipt">Kiểm tra lỗi chính xác và đưa giải pháp khắc
+                                    phục cụ
+                                    thể mang lại dịch vụ sửa chữa, thay thế nhanh chóng với chi phí thấp cho khách hàng.
+                                </p>
+                            </div>
                         </div>
-                        <div class="col col-s-3">
-                            <a href="" class="button product-select__link p-x-8 m-b-10">Thay pin</a>
-                        </div>
-                        <div class="col col-s-3">
-                            <a href="" class="button product-select__link p-x-8 m-b-10">Thay loa</a>
-                        </div>
-                        <div class="col col-s-3">
-                            <a href="" class="button product-select__link p-x-8 m-b-10">Thay đuôi sạc</a>
-                        </div>
-                        <div class="col col-s-3">
-                            <a href="" class="button product-select__link p-x-8 m-b-10">Thay camera</a>
-                        </div>
-                        <div class="col col-s-3">
-                            <a href="" class="button product-select__link p-x-8 m-b-10">Xem tất cả</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col col-s-6">
-                        <a class="product-item">
-                            <div class="product-discount br-t-2">
-                                <strong class="product-discount__text">-10%</strong>
+                        <div class="col-s-6">
+                            <div class="why-select-haohuynh__wrap">
+                                <img src="./assets/images/why-select-haohuynh/toan-quoc.png" alt=""
+                                    class="why-select-haohuynh__img">
+                                <h3 class="why-select-haohuynh__heading">dịch vụ toàn quốc</h3>
+                                <p class="why-select-haohuynh__descipt">Dịch vụ sửa chữa - bảo hành toàn quốc, tiếp nhận
+                                    bảo
+                                    hành và sửa chữa qua đường chuyển phát nhanh với đối tác vận chuyển uy tín.</p>
                             </div>
-                            <div class="product-container">
-                                <img src="./assets/images/product/apple/ipad/screen-ipad-pro-12.9.jpg"
-                                    alt="thay màn hình ipad pro 12.9 2021" class="product-container__img">
-                                <div class="product-wan">
-                                    <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
-                                    <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
-                                </div>
-                            </div>
-                            <p class="product-item__name p-x-8">Thay màn hình hình iPad Pro 12.9 2021</p>
-                            <div class="product-price p-x-8 m-b-10">
-                                <span class="product-price__new">5.800.000</span>
-                                <span class="product-price__old">6.380.000</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col col-s-6">
-                        <a class="product-item">
-                            <div class="product-discount br-t-2">
-                                <strong class="product-discount__text">-10%</strong>
-                            </div>
-                            <div class="product-container">
-                                <img src="./assets/images/product/apple/ipad/touch-ipad-pro-12-9-inch-2020.jpg"
-                                    alt="thay kính ipad pro 12.9 2021" class="product-container__img">
-                                <div class="product-wan">
-                                    <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
-                                    <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
-                                </div>
-                            </div>
-                            <p class="product-item__name p-x-8">Thay kính iPad Pro 12.9 2020</p>
-                            <div class="product-price p-x-8 m-b-10">
-                                <span class="product-price__new">1.850.000</span>
-                                <span class="product-price__old">2.035.000</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col col-s-6">
-                        <a class="product-item">
-                            <div class="product-discount br-t-2">
-                                <strong class="product-discount__text">-10%</strong>
-                            </div>
-                            <div class="product-container">
-                                <img src="assets/images/product/apple/ipad/touch-ipad-pro-12.9.jpg"
-                                    alt="thay cảm ứng ipad pro 12.9 2021" class="product-container__img">
-                                <div class="product-wan">
-                                    <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
-                                    <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
-                                </div>
-                            </div>
-                            <p class="product-item__name p-x-8">Thay cảm ứng iPad Pro 12.9 2021</p>
-                            <div class="product-price p-x-8 m-b-10">
-                                <span class="product-price__new">3.800.000</span>
-                                <span class="product-price__old">4.180.000</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col col-s-6">
-                        <a class="product-item">
-                            <div class="product-discount br-t-2">
-                                <strong class="product-discount__text">-10%</strong>
-                            </div>
-                            <div class="product-container">
-                                <img src="assets/images/product/apple/ipad/battery-ipad-pro-12-9-inch-2017.jpg"
-                                    alt="thay pin ipad pro 12.9 2017" class="product-container__img">
-                                <div class="product-wan">
-                                    <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
-                                    <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
-                                </div>
-                            </div>
-                            <p class="product-item__name p-x-8">Thay pin iPad Pro 12.9 2017</p>
-                            <div class="product-price p-x-8 m-b-10">
-                                <span class="product-price__new">950.000</span>
-                                <span class="product-price__old">1.045.000</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col col-s-6">
-                        <a class="product-item">
-                            <div class="product-discount br-t-2">
-                                <strong class="product-discount__text">-10%</strong>
-                            </div>
-                            <div class="product-container">
-                                <img src="assets/images/product/apple/ipad/speaker-ngoai-ipad-pro-12.9-2021-460x460.jpg"
-                                    alt="thay loa ipad Pro 12.9 2021" class="product-container__img">
-                                <div class="product-wan">
-                                    <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
-                                    <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
-                                </div>
-                            </div>
-                            <p class="product-item__name p-x-8">Thay loa iPad Pro 12.9 2021</p>
-                            <div class="product-price p-x-8 m-b-10">
-                                <span class="product-price__new">1.250.000</span>
-                                <span class="product-price__old">1.375.000</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col col-s-6">
-                        <a class="product-item">
-                            <div class="product-discount br-t-2">
-                                <strong class="product-discount__text">-10%</strong>
-                            </div>
-                            <div class="product-container">
-                                <img src="assets/images/product/apple/ipad/thay-chan-sac-ipad-pro-12-9-inch-2020-460x460.jpg"
-                                    alt="thay chân sạc ipad pro 12.9 2020" class="product-container__img">
-                                <div class="product-wan">
-                                    <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
-                                    <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
-                                </div>
-                            </div>
-                            <p class="product-item__name p-x-8">Thay chân sạc iPad Pro 12.9 2020</p>
-                            <div class="product-price p-x-8 m-b-10">
-                                <span class="product-price__new">1.700.000</span>
-                                <span class="product-price__old">1.870.000</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col col-s-6">
-                        <a class="product-item">
-                            <div class="product-discount br-t-2">
-                                <strong class="product-discount__text">-10%</strong>
-                            </div>
-                            <div class="product-container">
-                                <img src="assets/images/product/apple/ipad/camera-sau-ipad-pro-12.9-2021-1-460x460.jpg"
-                                    alt="thay camera ipad pro 12.9 2021" class="product-container__img">
-                                <div class="product-wan">
-                                    <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
-                                    <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
-                                </div>
-                            </div>
-                            <p class="product-item__name p-x-8">Thay camera iPad Pro 12.9 2021</p>
-                            <div class="product-price p-x-8 m-b-10">
-                                <span class="product-price__new">1.250.000</span>
-                                <span class="product-price__old">1.375.000</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col col-s-6">
-                        <a class="product-item">
-                            <div class="product-discount br-t-2">
-                                <strong class="product-discount__text">-10%</strong>
-                            </div>
-                            <div class="product-container">
-                                <img src="assets/images/product/apple/ipad/case-ipad-pro-12-9-inch-2021-460x460.jpg"
-                                    alt="thay vo ipad pro 12.9 2021" class="product-container__img">
-                                <div class="product-wan">
-                                    <span class="product-wan__time product-wan__time--red">Bảo hành: 12 tháng</span>
-                                    <span class="product-wan__time product-wan__time--orange">Sửa: 1 - 3 giờ</span>
-                                </div>
-                            </div>
-                            <p class="product-item__name p-x-8">Thay vỏ iPad Pro 12.9 2021</p>
-                            <div class="product-price p-x-8 m-b-10">
-                                <span class="product-price__new">2.800.000</span>
-                                <span class="product-price__old">3.080.000</span>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </section>
-            <section class="section accessory">
-                <h2 class="section__heading m-b-10  b-color b-solid b-l-4">Phụ kiện</h2>
-                <div class="accessory-container">
-                    <div class="accessory-item">
-                        <a href="" class="accessory-item__link">
-                            <img src="./assets/images/accessories/phu-kien-apple-icon.png" alt="Phụ kiện apple"
-                                class="accessory-item__img">
-                        </a>
-                        <div class="accessory-item__title">Phụ kiện Apple</div>
-                    </div>
-                    <div class="accessory-item">
-                        <a href="dán cường lực" class="accessory-item__link">
-                            <img src="assets/images/accessories/phu-kien-dan-icon.png" alt="dán cường lực"
-                                class="accessory-item__img">
-                        </a>
-                        <div class="accessory-item__title">Dán cường lực</div>
-                    </div>
-                    <div class="accessory-item">
-                        <a href="" class="accessory-item__link">
-                            <img src="./assets/images/accessories/op-lung-bao-da-icon.png" alt="bao da, ốp lưng"
-                                class="accessory-item__img">
-                        </a>
-                        <div class="accessory-item__title">Bao da, ốp lưng</div>
-                    </div>
-                    <div class="accessory-item">
-                        <a href="" class="accessory-item__link">
-                            <img src="assets/images/accessories/chuot-key-icon.png" alt="chuột, bàn phím"
-                                class="accessory-item__img">
-                        </a>
-                        <div class="accessory-item__title">Chuột, bàn phím</div>
-                    </div>
-                    <div class="accessory-item">
-                        <a href="" class="accessory-item__link">
-                            <img src="./assets/images/accessories/cu-cap-sac-icon.png" alt="Củ sạc, cáp sạc"
-                                class="accessory-item__img">
-                        </a>
-                        <div class="accessory-item__title">Củ, cáp sạc</div>
-                    </div>
-                    <div class="accessory-item">
-                        <a href="" class="accessory-item__link">
-                            <img src="./assets/images/accessories/loa-icon.png" alt="Loa" class="accessory-item__img">
-                        </a>
-                        <div class="accessory-item__title">Loa</div>
-                    </div>
-                    <div class="accessory-item">
-                        <a href="" class="accessory-item__link">
-                            <img src="./assets/images/accessories/pin-du-phong-icon.png" alt="sạc dự phòng"
-                                class="accessory-item__img">
-                        </a>
-                        <div class="accessory-item__title">Sạc dự phòng</div>
-                    </div>
-                    <div class="accessory-item">
-                        <a href="" class="accessory-item__link">
-                            <img src="assets/images/accessories/tai-nghe-icon.png" alt="tai nghe"
-                                class="accessory-item__img">
-                        </a>
-                        <div class="accessory-item__title">Tai nghe</div>
-                    </div>
-                    <div class="accessory-item">
-                        <a href="" class="accessory-item__link">
-                            <img src="./assets/images/accessories/the-nho-icon.png" alt="thẻ nhớ"
-                                class="accessory-item__img">
-                        </a>
-                        <div class="accessory-item__title">Thẻ nhớ</div>
-                    </div>
-                    <div class="accessory-item">
-                        <a href="" class="accessory-item__link">
-                            <img src="./assets/images/accessories/usb-icon.png" alt="usb" class="accessory-item__img">
-                        </a>
-                        <div class="accessory-item__title">USB</div>
-                    </div>
-                    <div class="accessory-item">
-                        <a href="" class="accessory-item__link">
-                            <img src="./assets/images/accessories/sim-the-icon.png" alt="thẻ sim điện thoại"
-                                class="accessory-item__img">
-                        </a>
-                        <div class="accessory-item__title">Thẻ sim</div>
-                    </div>
-                    <div class="accessory-item">
-                        <a href="" class="accessory-item__link">
-                            <img src="./assets/images/accessories/phan-mem-icon.png" alt="phần mềm, software"
-                                class="accessory-item__img">
-                        </a>
-                        <div class="accessory-item__title">Phần mềm</div>
-                    </div>
-                </div>
-            </section>
-            <section class="section why-select-haohuynh">
-                <h2 class="section__heading m-b-10  b-color b-solid b-l-4">Tại sao chọn hào huỳnh mobile</h2>
-                <div class="row">
-                    <div class="col-s-6">
-                        <div class="why-select-haohuynh__wrap">
-                            <img src="./assets/images/why-select-haohuynh/dich-vu.png" alt="dịch vụ chuyên nghiệp"
-                                class="why-select-haohuynh__img">
-                            <h3 class="why-select-haohuynh__heading no-wrap">Dịch vụ chuyên nghiệp</h3>
-                            <p class="why-select-haohuynh__descipt">Hào Huỳnh Mobile là hệ thống cửa hàng sửa chữa rộng
-                                khắp cả nước với nhiều năm kinh nhiệm nhận sửa chữa thiết bị công nghệ : điện thoại,
-                                laptop, tablet,...</p>
                         </div>
                     </div>
-                    <div class="col-s-6">
-                        <div class="why-select-haohuynh__wrap">
-                            <img src="./assets/images/why-select-haohuynh/cam-ket.png" alt="cam kết"
-                                class="why-select-haohuynh__img">
-                            <h3 class="why-select-haohuynh__heading">Cam kết</h3>
-                            <p class="why-select-haohuynh__descipt">Thời gian bảo hành 6 - 12 tháng, hoàn 100% tiền nếu
-                                khách hàng không hài lòng, tổng đài miễn phí 1800.8888 giải đáp thắc mắc nhanh chóng.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-s-6">
-                        <div class="why-select-haohuynh__wrap">
-                            <img src="./assets/images/why-select-haohuynh/tiet-kiem.png" alt=""
-                                class="why-select-haohuynh__img">
-                            <h3 class="why-select-haohuynh__heading">Cam kết tối ưu</h3>
-                            <p class="why-select-haohuynh__descipt">Kiểm tra lỗi chính xác và đưa giải pháp khắc phục cụ
-                                thể mang lại dịch vụ sửa chữa, thay thế nhanh chóng với chi phí thấp cho khách hàng.</p>
-                        </div>
-                    </div>
-                    <div class="col-s-6">
-                        <div class="why-select-haohuynh__wrap">
-                            <img src="./assets/images/why-select-haohuynh/toan-quoc.png" alt=""
-                                class="why-select-haohuynh__img">
-                            <h3 class="why-select-haohuynh__heading">dịch vụ toàn quốc</h3>
-                            <p class="why-select-haohuynh__descipt">Dịch vụ sửa chữa - bảo hành toàn quốc, tiếp nhận bảo
-                                hành và sửa chữa qua đường chuyển phát nhanh với đối tác vận chuyển uy tín.</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
-        <footer class="footer">
-            <div class="row mobile-no-gutter">
-                <div class="col-s-12">
-                    <div class="section section--bg mr-x-0 pd-b-10">
-                        <h2 class="section__heading section__heading--light">Hệ thống cửa hàng</h2>
-                        <ul class="store-list">
-                            <li class="store-list__item">
-                                <span>Tổng đài miễn phí: </span><a href="tel:0969033933"
-                                    class="store-list__link">0960.033.933</a>
-                            </li>
-                            <li class="store-list__item">
-                                <span>Email: </span><a href="mailto:haohuynh.job@gmail.com"
-                                    class="store-list__link">haohuynh.job@gmail.com</a></p>
-                            </li>
-                            <li class="store-list__item">
-                                <span>Thời gian phục vụ:</span><strong> 08:00 - 21:00 </strong><span>hàng
-                                    ngày</span><em> (cả Chủ nhật & ngày lễ)</em>
-                            </li>
-                        </ul>
-                        <a href="" class="button footer-store__button mr-x-10 mr-t-10">
-                            Tìm cửa hàng Hào Huỳnh Mobile ở gần
-                        </a>
-                        <a href="" class="button footer-store__button mr-x-10 mr-t-10">
-                            Dịch vụ cho khách hàng ở xa
-                        </a>
-                    </div>
-                </div>
-                <div class="col-s-12">
-                    <div class="section mr-0 pd-y-10">
-                        <h2 class="section__heading">Thông tin hổ trợ</h2>
-                        <div class="row mobile-no-gutter">
-                            <ul class="footer-list mr-x-10">
-                                <li class="footer-list__item"><a href="" class="footer__link">Kiểm tra bảo hành</a>
+                </section>
+            </main>
+            <footer class="footer">
+                <div class="row mobile-no-gutter">
+                    <div class="col-s-12 col-m-6">
+                        <div class="section section--bg mr-x-0 mr-t-10">
+                            <h2 class="section__heading section__heading--light">Hệ thống cửa hàng</h2>
+                            <ul class="store-list">
+                                <li class="store-list__item">
+                                    <span>Tổng đài miễn phí: </span><a href="tel:0969033933"
+                                        class="store-list__link">0960.033.933</a>
                                 </li>
-                                <li class="footer-list__item"><a href="" class="footer__link">Chính sách bảo mật</a>
+                                <li class="store-list__item">
+                                    <span>Email: </span><a href="mailto:haohuynh.job@gmail.com"
+                                        class="store-list__link">haohuynh.job@gmail.com</a></p>
                                 </li>
-                                <li class="footer-list__item"><a href="" class="footer__link">Chính sách sử dụng</a>
+                                <li class="store-list__item">
+                                    <span>Thời gian phục vụ:</span><strong> 08:00 - 21:00 </strong><span>hàng
+                                        ngày</span><em> (cả Chủ nhật & ngày lễ)</em>
                                 </li>
-                                <li class="footer-list__item"><a href="" class="footer__link">Chính sách bảo hành</a>
-                                </li>
-                                <li class="footer-list__item"><a href="" class="footer__link">Liên hệ với chúng
-                                        tôi</a></li>
                             </ul>
+                            <div class="store-find">
+                                <div class="store-find__wrapper mr-x-10 mr-t-10">
+                                    <a href="" class="store-find__link ">
+                                        Tìm cửa hàng Hào Huỳnh Mobile ở gần
+                                    </a>
+                                </div>
+                                <div class="store-find__wrapper mr-x-10 mr-t-10">
+                                    <a href="" class="store-find__link ">
+                                        Dịch vụ cho khách hàng ở xa
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-s-12 col-m-3">
+                        <div class="section mr-x-0 mr-t-10">
+                            <h2 class="section__heading">Thông tin hổ trợ</h2>
+                            <div class="row mobile-no-gutter">
+                                <ul class="footer-list mr-x-10">
+                                    <li class="footer-list__item"><a href="" class="footer__link">Kiểm tra bảo hành</a>
+                                    </li>
+                                    <li class="footer-list__item"><a href="" class="footer__link">Chính sách bảo mật</a>
+                                    </li>
+                                    <li class="footer-list__item"><a href="" class="footer__link">Chính sách sử dụng</a>
+                                    </li>
+                                    <li class="footer-list__item"><a href="" class="footer__link">Chính sách bảo
+                                            hành</a>
+                                    </li>
+                                    <li class="footer-list__item"><a href="" class="footer__link">Liên hệ với chúng
+                                            tôi</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-s-12 col-m-3">
+                        <div class="section section mr-x-0 mr-t-10">
+                            <h2 class="section__heading">Kết nối với hào huỳnh mobile</h2>
+                            <div class="row mobile-no-gutter">
+                                <ul class="footer-list mr-x-10">
+                                    <li class="footer-list__item"><a href="" class="footer__link">Sơ đồ website</a>
+                                    </li>
+                                    <li class="footer-list__item"><a href="" class="footer__link">Khuyến mãi</a>
+                                    </li>
+                                    <li class="footer-list__item"><a href="" class="footer__link">Tuyển dụng</a>
+                                    </li>
+                                    <li class="footer-list__item"><a href="" class="footer__link">Dạy nghề sửa chữa</a>
+                                    </li>
+                                    <li class="footer-list__item"><a href="" class="footer__link">Giới thiệu Hào Huỳnh
+                                            Mobile</a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-s-12">
-                    <div class="section mr-0 pd-y-10">
-                        <h2 class="section__heading">Thông tin hổ trợ</h2>
-                        <div class="row mobile-no-gutter">
-                            <ul class="footer-list mr-x-10">
-                                <li class="footer-list__item"><a href="" class="footer__link">Kiểm tra bảo hành</a>
-                                </li>
-                                <li class="footer-list__item"><a href="" class="footer__link">Chính sách bảo mật</a>
-                                </li>
-                                <li class="footer-list__item"><a href="" class="footer__link">Chính sách sử dụng</a>
-                                </li>
-                                <li class="footer-list__item"><a href="" class="footer__link">Chính sách bảo hành</a>
-                                </li>
-                                <li class="footer-list__item"><a href="" class="footer__link">Liên hệ với chúng
-                                        tôi</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="section mr-0 pd-10">
-                <div class="footer-copy-right">
-                    <p>Copy right Hào Huỳnh Mobile</p>
-                </div>
-            </div>
-        </footer>
+            </footer>
+        </div>
     </div>
     <script>
-        let items = document.querySelectorAll('.slider__item');
-        let i = 0;
-        setInterval(() => {
-            items.forEach(item => {
-                item.classList.remove('active');
-            })
-            if (i === items.length) {
-                i = 0;
-            }
-            items[i].classList.add('active');
-            i++;
-        }, 5000)
+
     </script>
 </body>
 

@@ -7,6 +7,8 @@
     --text-color: #3a3a3a;
     --button-origin-color: #e7e7e7;
     --header-mobile-height: 90px;
+    --header-pc-height: 100px;
+    --nav-top-height: 50px;
 }
 
 html {
@@ -26,11 +28,6 @@ body {
 }
 
 
-
-.pd-10 {
-    padding: 10px;
-}
-
 .text-bolder {
     font-weight: bolder;
 }
@@ -41,6 +38,7 @@ body {
     border-radius: 4px;
 }
 
+/* -------------------------- Button --------------------------- */
 .button{
     display: block;
     border: none;
@@ -49,10 +47,15 @@ body {
     background-color: var(--button-origin-color);
     padding: 8px 12px;
     border-radius: 4px;
+    font-size: 1.2rem;
 }
 
 .button:hover{
     background-color: var(--primary-color);
+}
+
+.button--mobile{
+    padding: 13px 4px;
 }
 
 
@@ -108,13 +111,22 @@ body {
     padding-right: 8px;
 }
 
+.p-x-4{
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
 .pd-10{
     padding: 10px;
 }
 
-.pd-y-100{
+.pd-y-10{
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.pd-t-10{
+    padding-top: 10px;
 }
 
 .no-padding{
@@ -146,6 +158,10 @@ body {
 .mr-x-0{
     margin-left: 0 !important;
     margin-right: 0 !important;
+}
+
+.mr-b-10{
+    margin-bottom: 10px !important;
 }
 
 .mr-0{
